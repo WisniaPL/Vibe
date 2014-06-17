@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="lessontitle1">Wspólne przyciski </string>
+<string name="lessontitle2">Powiadomienie</string>
+<string name="lessontitle3">Ustawienia 2 kart SIM</string>
+<string name="lessontitle4">Przytrzymaj dłużej klawisze zdjęcie będzie gotowe</string>
+<string name="lessontitle5">Edycja aplikacji oraz wyszukiwanie</string>
+<string name="lessontitle6">Szybkie wyszukiwanie połączeń</string>
+<string name="lessontitle7">Ikony</string>
+<string name="lessontitle8">Polączenia przychodzące wyciszone</string>
+<string name="lessontitle9">Wielkie oraz małe litery</string>
+<string name="lessontitle10">.....Obsługiwać</string>
+<string name="lessontitle11">Przechwyć obraz</string>
+<string name="lessontitle12">Przechwyć obraz</string>
+<string name="lessontitle13">Przejdź do samouczka </string>
+<string name="lessontitle13go">Przejdź do samouczka </string>
+<string name="back">Wstecz</string>
+<string name="next">Dalej</string>
+<string name="finish">Zakończ</string>
+<string name="Lessons">Lekcje</string>
+<string name="exit">Wyjdź</string>
+</resources>

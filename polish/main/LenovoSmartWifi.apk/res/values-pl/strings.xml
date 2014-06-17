@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">WLAN ustawianie połaczenia</string>
+<string name="setting_activity">WLAN wyszukiwanie lokalizacji</string>
+<string name="dialog_title">Włączyć WLAN?</string>
+<string name="dialog_text">To miejsce zostało podłączone AP, Włączyć WLAN?</string>
+<string name="disable_dialog_title">Wyłączyć WLAN?</string>
+<string name="disable_dialog_text">To miejsce jest za dalego od podłączonego AP, wyłączyć sieć WLAN?</string>
+<string name="show_dialog">"Nie przypominaj mi"</string>
+<string name="disable_show_dialog">"Nie przypominaj mi"</string>
+<string name="wifi_enable_text">Wprowadź lokalizację</string>
+<string name="wifi_enable_summary">Kiedy wprowadzisz lokalizację związaną ap i masz połaczenie GPRS, włacz WLAN</string>
+<string name="wifi_disable_text">Odległa lokalizacja, pozazasięgiem</string>
+<string name="wifi_disable_summary">Kiedy połączenie położenie poza zasięgiem AP, wyłącz sieć WLAN</string>
+<string name="wifi_setting_summary">Kiedy wprowadzisz lokalizację związaną ap i masz połaczenie GPRS, włacz WLAN</string>
+<string name="wifi_popup_tip">Wznowić połaczenie</string>
+<string name="wifi_auto_enable">Włącz automatycznie</string>
+<string name="wifi_auto_disable">Wyłącz automatycznie</string>
+<string name="wifi_popup_0">Powiązanie z podłączonym ap. Wprowadzić tę opcję szybkiej</string>
+<string name="wifi_popup_1">Powiązanie z podłączonym ap. Wprowadzić tę opcje automatycznie</string>
+<string name="wifi_popup_2">"Nie przypominaj mi"</string>
+</resources>

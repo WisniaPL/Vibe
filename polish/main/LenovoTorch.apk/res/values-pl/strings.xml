@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Latarka</string>
+<string name="menu_settings">Ustawienia</string>
+<string name="title_activity_lenovo_hdl_light">Latarka</string>
+<string name="notify_title">Naciśnij aby zamknąć</string>
+<string name="get_device_error">Błąd urządzenia, twoja dioda LED jest być może zajęte, proszę sprawdź to.</string>
+</resources>

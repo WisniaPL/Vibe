@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">TajnyKod</string>
+<string name="show_kernel_version_title">Wersja jądra</string>
+<string name="show_internal_version_title">Wersja wewnętrzna</string>
+<string name="show_external_version_title">Wersja</string>
+<string name="show_modem_version_title">Wersja modemu</string>
+<string name="show_sn_title">SN</string>
+<string name="version_unavailable">Błąd pobrania wersji</string>
+<string name="factory_wipe_data">czyść dane użytkownika do trybu fabrycznego</string>
+<string name="factory_wipe_data_warning">Kliknij przycisk OK, będzie usunięte wszystkie dane użytkownika, ale zahowane zostaną zainstalowane aplikacje, zróbkopię aby uniknąć utraty danych w telefonie.</string>
+<string name="factory_wipe_data_cancel">anuluj</string>
+<string name="sdcard_not_found">tryb fabryczny nieudany</string>
+<string name="sdcard_not_found_tip">Ta funkcja wymaga wsparcia na karcie SD, upewnij się, że karta SD jest włożona</string>
+<string name="sdcard_out_of_space">Karta SD nie ma dostatecznie dużo miejsca</string>
+<string name="sdcard_out_of_space_tip">"SD pozostało %1$sM dostępnej przestrzeni, ale to wymaga karty SD %2$sM zwiększ pojemność"</string>
+<string name="imei">IMEI</string>
+<string name="imei_invalid">Błędny</string>
+</resources>

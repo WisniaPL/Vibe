@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="app_name">Kompas</string>
+<string name="North">N</string>
+<string name="NorthEast">NE</string>
+<string name="East">E</string>
+<string name="SouthEast">SE</string>
+<string name="South">S</string>
+<string name="SouthWest">SW</string>
+<string name="west">W</string>
+<string name="NorthWest">NW</string>
+<string name="Degree">°</string>
+<string name="Tips">\u0009\u0009 Aby ponownie skalibrować ten kompas zastosować się do rysunku skalibrowanie to ustawienie w 8 różnych pozycjach, urządzenie trzymaj prostopadle do ziemi. Zrób to kilka razy do dokładnego wyniku.</string>
+<string name="DoNotSHowAgain">Nie pokazuj ponownie</string>
+<string name="Ok">OK</string>
+<string name="Cancel">Anuluj</string>
+<string name="Help">Kalibruj</string>
+<string name="Info">Informacja</string>
+</resources>

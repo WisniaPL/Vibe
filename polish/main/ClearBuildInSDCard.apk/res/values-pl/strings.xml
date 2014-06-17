@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="hello">Witaj w ClearSDCardActivity!</string>
+<string name="app_name">Czyścik karty SD</string>
+<string name="loading_please_wait">Wczytywanie, proszę czekać...</string>
+<string name="white_list_not_found">Czyszczenie karty SD nie powiodło się, biała lista nie znaleziona.</string>
+<string name="sdcard_not_available">Czyszczenie karty SD nie powiodło się, karta jest wyłączona.</string>
+<string name="clearSDcardFailed">Nie udało się wyczyścić karty SD</string>
+<string name="deleteFileFailed">Błąd kasowania pliku</string>
+<string name="fileNotFoud">Wyjątek: nie znaleziono pliku</string>
+<string name="clear_start">Rozpocznij czyszczenie karty SD</string>
+<string name="clear_success">karta SD wyczyszczona, zrestartuj telefon</string>
+<string name="clearing">Czyszczenie karty SD</string>
+</resources>
