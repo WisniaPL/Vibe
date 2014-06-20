@@ -396,8 +396,8 @@
   <string name="bugreport_title">Submit error report</string>
   <string name="bugreport_message">This will collect information about your current device state and send it as an e-mail message. It will take some time to generate, prepare, and send the error report. Please be patient.</string>
   <string name="chooseUsbActivity">Choose an app for the USB device</string>
+  <string name="usb_storage_message">"Jesteś podłączony do komputera za pośrednictwem portu USB. Dotknij przycisk poniżej, jeśli chcesz kopiować pliki między komputerem, a kartą SD systemu Android."</string>
   <string name="usb_storage_title">Podłączono USB</string>
-  <string name="usb_storage_message">You've</string>
   <string name="usb_storage_stop_title">Pamieć w użyciu</string>
   <string name="usb_storage_button_mount">Otwórz pamięć masową</string>
   <string name="usb_storage_stop_button_mount">Zamknij urządzenie pamięci masowej USB</string>
@@ -423,7 +423,7 @@
   <string name="description_direction_down">Przesuń w dół dla %s.</string>
   <string name="description_direction_left">Przesuń w lewo dla %s.</string>
   <string name="description_direction_right">Przesuń w prawo dla %s.</string>
-  <string name="lenovo_recents_memory_info_text">%1$sMB\u0009 available from %2$sGB RAM</string>
+  <string name="lenovo_recents_memory_info_text">%1$sMB\u0009 dostępnych z %2$sGB RAM</string>
   <string name="lenovo_recents_clear_memory_toast_text">%1$sMB</string>
   <string name="lenovo_recents_no_app_toast_test">RAM</string>
   <string name="notification_quick_switch_settings">Ustawienia paska powiadomień</string>
