@@ -1354,7 +1354,6 @@
 <string name="kg_login_password_hint">Hasło</string>
 <string name="kg_login_submit_button">Zaloguj</string>
 <string name="kg_login_invalid_input">Niepoprawny login lub hasło.</string>
-<string name="kg_login_account_recovery_hint">'Nie pamiętasz nazwy użytkownika lub hasła? Wizyta' <b> google.com / accounts / odzysku </ b>.</string>
 <string name="kg_login_checking_password">Sprawdzanie konta...</string>
 <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"Niepoprawnie wpisany kod PIN % d razy Spróbuj ponownie za % d sekund. "</string>
 <string name="kg_too_many_failed_password_attempts_dialog_message" formatted="false">"Niepoprawnie wpisane hasło % d razy Spróbuj ponownie za % d sekund. "</string>
