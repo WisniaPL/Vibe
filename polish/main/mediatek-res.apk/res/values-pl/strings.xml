@@ -187,10 +187,6 @@ Spróbuj ponownie za %d sekund."</string>
     <string name="default_label">Alarm</string>
     <string name="dismiss_power_on">Odrzuć i włącz telefon</string>
     <string name="dismiss_power_off">Odrzuć i wyłącz telefon</string>
-    <string name="alarm_alert_snooze_text">Drzemka</string>
-    <string name="never">Nigdy</string>
-    <string name="day_concat">", "</string>
-    <string name="every_day">Każdego dnia</string>
     <string name="repeat_weekdays">Tydzień roboczy</string>
     <string name="storage_withsd">Niewystarczająca ilość miejsca w pamięci telefonu. Zwolnij nieco miejsca lub zmień domyślny dysk zapisu w ustawieniach.</string>
     <string name="storage_withoutsd">Niewystarczająca ilość miejsca w pamięci telefonu. Zwolnij nieco miejsca lub wsadź kartę pamięci.</string>
