@@ -31,7 +31,7 @@ Continue to press with 2 seconds for reboot after shutdown"</string>
   <string name="silent_mode_silent">Cichy</string>
   <string name="silent_mode_vibrate">Wibracja</string>
   <string name="silent_mode_normal">Ogólny</string>
-  <string name="silent_mode_outdoor">Na zewnątrz</string>
+  <string name="silent_mode_outdoor">Zewnątrz</string>
   <string name="powerOnWarning_alarm_msg">Następny alarm: %1$s</string>
   <string name="powerOnWarning_boot_msg">Następne włączenie: %1$s</string>
   <string name="long_back_exit_info">Wyjdź</string>
