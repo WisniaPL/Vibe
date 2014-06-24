@@ -459,13 +459,13 @@
   <string name="lenovo_theme">Motyw</string>
   <string name="lenovo_theme_settings">Ustawienia motywów</string>
   <string name="lenovo_theme_classics">Domyślny</string>
-  <string name="lenovo_recents_task_introduce1">Slide</string>
-  <string name="lenovo_recents_task_introduce2">Slide</string>
-  <string name="lenovo_status_bar_switch_introduce">Slide</string>
+  <string name="lenovo_recents_task_introduce1">Przesuń</string>
+  <string name="lenovo_recents_task_introduce2">Przesuń</string>
+  <string name="lenovo_status_bar_switch_introduce">Przesuń</string>
   <string name="lenovo_status_bar_switch_long_click_introduce">Długie naciśnięcie prowadzi do ustawień</string>
   <string name="lenovo_status_bar_all_switch_introduce">"Kliknij tutaj, aby wejść w ustawienia centrum powiadamień"</string>
   <string name="lenovo_notification_clear_gps_text">Zamknij GPS</string>
-  <string name="lenovo_low_battery_warning_title_text">Notification center remind</string>
+  <string name="lenovo_low_battery_warning_title_text">Przypomnienie</string>
   <string name="lenovo_low_battery_warning_shut_down_text">Wyłącz</string>
   <string name="lenovo_wifi_connecting_text">Pobieram adres IP</string>
   <string name="lenovo_wifi_disconnecting_text">Rozłączanie</string>
