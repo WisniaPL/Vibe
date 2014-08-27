@@ -638,5 +638,4 @@
 <string name="deep_clear_result_details">Szczegóły ></string>
 <string name="battery_history_days_without_seconds" formatted="false">%dd %dh %dm</string>
 <string name="battery_history_hours_without_seconds" formatted="false">%dh %dm</string>
-<string name="battery_history_minutes_without_seconds">%dm %ds</string>
 </resources>
