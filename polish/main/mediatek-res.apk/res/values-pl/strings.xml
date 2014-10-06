@@ -120,14 +120,14 @@
   <string name="wifi_display_wfd_off_bt_on">Wireless display will be turned off when you turn on Bluetooth. Do you want to continue?</string>
   <string name="wifi_display_wifi_p2p_disconnect_wfd_connect">Current Wi-Fi Direct connection will be disconnected when you connect to the wireless display device. Do you want to continue?</string>
   <string name="sdcard_ready_title">Karta SD gotowa</string>
-  <string name="sdcard_select_default_path">Do you want to change the default write disk?</string>
-  <string name="sdcard_default_path_change">Default write disk was changed.</string>
+  <string name="sdcard_select_default_path">Chcesz zmienić domyślne miejsce zapisu?</string>
+  <string name="sdcard_default_path_change">Domyślny dysk zapisu został zmieniony.</string>
   <string name="day_month_year_wday" formatted="false">%s %s %s, %s</string>
   <string name="day_year_month_wday" formatted="false">%s %s %s, %s</string>
   <string name="simlock_slot_locked_message">The slot has been permanently locked</string>
   <string name="simlock_entersimmelock">Enter SIM ME lock</string>
   <string name="slot_id">Slot %d:</string>
-  <string name="new_simcard">New SIM card</string>
+  <string name="new_simcard">Nowa karta SIM</string>
   <string name="wifi_display_unstable_connection">Niestabilne połączenie</string>
   <string name="wifi_display_connection_is_not_steady">The current connection of wireless display is not steady.</string>
   <string name="wifi_display_unstable_suggestion">The current connection of wireless display is not steady, please try to get closer to your display device.</string>
@@ -309,5 +309,5 @@ Spróbuj ponownie za %d sekund."</string>
   <string name="hdmi_notification_content">Click to configure HDMI</string>
   <string name="hdmi_replace_hdmi">HDMI</string>
   <string name="hdmi_replace_mhl">MHL</string>
-  <string name="safe_media_volume_warning_title">Warning</string>
+  <string name="safe_media_volume_warning_title">Uwaga</string>
 </resources>

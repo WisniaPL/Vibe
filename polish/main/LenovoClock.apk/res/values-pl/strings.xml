@@ -11,7 +11,7 @@
   <item name="text_size_multiplier_inner" type="string">0.15</item>
   <item name="text_size_multiplier_outer" type="string">0.15</item>
   <item name="circleview_center_radius" type="string">0.04</item>
-  <string name="done_label">Done</string>
+  <string name="done_label">Zrobione</string>
   <string name="hour_picker_description">Hours circular slider</string>
   <string name="minute_picker_description">Minutes circular slider</string>
   <string name="select_hours">Select hours</string>
@@ -171,8 +171,8 @@
   <string name="swn_stopped">Zatrzymany</string>
   <string name="description_direction_right">Przesuń w prawo by wyłączyć</string>
   <string name="description_direction_left">Przesuń w lewo by włączyć drzemkę</string>
-  <string name="description_direction_up">Przesuń w prawo by odrzucić</string>
-  <string name="description_direction_down">Przesuń w górę, aby wyłączyć</string>
+  <string name="description_direction_up">Przesuń w górę by odrzucić</string>
+  <string name="description_direction_down">Przesuń w dół, aby wyłączyć</string>
   <string name="timer_stopped">Minutnik zatrzymany</string>
   <string name="timers_stopped">%d timers stopped</string>
   <string name="all_timers_stopped_notif">Dotknij, aby zobaczyć swoje liczniki</string>
@@ -253,7 +253,7 @@
   <string name="once">Raz</string>
   <string name="poweroff_switch">Włącz alarm przy wył. telefonie</string>
   <string name="incvol_switch">Narastający</string>
-  <string name="incvol_lable">łagodzący alarm</string>
+  <string name="incvol_lable"> alarm</string>
   <string name="world_time_today">Dzisiaj</string>
   <string name="world_time_tomorrow">Jutro</string>
   <string name="world_time_yesterday">Wczoraj</string>

@@ -43,7 +43,7 @@
     <item>:-X</item>
     <item>:-D</item>
     <item>o_O</item>
-    <item>&lt;3</item>
+    <item>&amp;lt;3</item>
     <item>x-(</item>
     <item>:-/</item>
     <item>:-I</item>
@@ -78,52 +78,52 @@
     <item>Poker face</item>
   </string-array>
   <string-array name="default_quick_texts">
-    <item>Where are you?</item>
-    <item>What are you doing?</item>
-    <item>Call back! Please!</item>
-    <item>Sorry, I have a meeting now.</item>
-    <item>Call you soon.</item>
-    <item>"Don't worry! I'm fine."</item>
-    <item>On my way home.</item>
-    <item>Will arrive soon.</item>
-    <item>Be there or be square!</item>
+    <item>Gdzie jesteś? ;)</item>
+    <item>Co robisz? ;)</item>
+    <item>Odzwoń! Proszę!</item>
+    <item>Przepraszam, jestem zajety</item>
+    <item>Zadzwonię później.</item>
+    <item>Nie martw się. Wszystko w porządku</item>
+    <item>Już w domu :)</item>
+    <item>Wkrótce będę</item>
+    <item>Tak, będę</item>
   </string-array>
   <string-array name="pref_key_mms_priority_choices">
-    <item>High</item>
-    <item>Normal</item>
-    <item>Low</item>
+    <item>Wysoki</item>
+    <item>Normalny</item>
+    <item>Niski</item>
   </string-array>
   <string-array name="pref_sms_save_location_choices">
-    <item>Phone</item>
-    <item>SIM Card</item>
+    <item>Telefon</item>
+    <item>Karta SIM</item>
   </string-array>
   <string-array name="pref_tablet_sms_save_location_choices">
-    <item>Device</item>
-    <item>SIM Card</item>
+    <item>Urządzenie</item>
+    <item>Karta SIM</item>
   </string-array>
   <string-array name="pref_tablet_sms_save_location_values">
     <item>Phone</item>
     <item>Sim</item>
   </string-array>
   <string-array name="pref_sms_input_mode_choice">
-    <item>GSM alphabet</item>
+    <item>Alfabet GSM</item>
     <item>Unicode</item>
-    <item>Automatic</item>
+    <item>Automatycznie</item>
   </string-array>
   <string-array name="forward_pref_sms_forward_need_add_choices">
-    <item>Forward directly</item>
-    <item>Indicate name</item>
-    <item>Indicate name and number</item>
-    <item>Enquiry every time(Forwarding directly in auto forward condition)</item>
+    <item>Przekaż bezpośrednio</item>
+    <item>Wskazać nazwę</item>
+    <item>Wskazać nazwę i numer</item>
+    <item>Pytaj za każdym razem </item>
   </string-array>
   <string-array name="forward_pref_sms_forward_need_add_choices_oversea">
-    <item>Forward directly</item>
-    <item>Indicate name</item>
-    <item>Indicate name and number</item>
+    <item>Przekaż bezpośrednio</item>
+    <item>Wskazać nazwę</item>
+    <item>Wskazać nazwę i numer</item>
   </string-array>
   <string-array name="pref_sms_save_location_choices_ct">
-    <item>Phone</item>
-    <item>UIM Card</item>
+    <item>Telefon</item>
+    <item>Karta SIM</item>
   </string-array>
   <string-array name="State">
     <item>港澳台地区</item>
@@ -478,20 +478,20 @@
     <item>1</item>
   </string-array>
   <string-array name="sound_effect_list">
-    <item>Default</item>
+    <item>Domyślny</item>
     <item>Piano</item>
   </string-array>
   <string-array name="photo_display_settings_styles">
-    <item>First letter</item>
-    <item>Last letter</item>
+    <item>Pierwsza litera</item>
+    <item>Ostatnia litera</item>
   </string-array>
   <string-array name="callog_display_style_value">
-    <item>By date</item>
-    <item>By contact</item>
+    <item>Wg daty</item>
+    <item>Wg kontaktu</item>
   </string-array>
   <string-array name="dial_start_action_value">
-    <item>Dial pad</item>
-    <item>Call log</item>
+    <item>Panel numeryczny</item>
+    <item>Log połączeń</item>
   </string-array>
   <string-array name="lunar_month_array">
     <item>"Jan "</item>
@@ -540,17 +540,17 @@
     <item>30</item>
   </string-array>
   <string-array name="select_dialog_items">
-    <item>1 second</item>
-    <item>2 seconds</item>
-    <item>3 seconds</item>
-    <item>4 seconds</item>
-    <item>5 seconds</item>
-    <item>6 seconds</item>
-    <item>7 seconds</item>
-    <item>8 seconds</item>
-    <item>9 seconds</item>
-    <item>10 seconds</item>
-    <item>Other…</item>
+    <item>1 sekunda</item>
+    <item>2 sekundy</item>
+    <item>3 sekundy</item>
+    <item>4 sekundy</item>
+    <item>5 sekund</item>
+    <item>6 sekund</item>
+    <item>7 sekund</item>
+    <item>8 sekund</item>
+    <item>9 sekund</item>
+    <item>10 sekund</item>
+    <item>Inne...</item>
   </string-array>
   <string-array name="language_list_values">
     <item>All Languages</item>
@@ -601,12 +601,12 @@
     <item>36</item>
   </string-array>
   <string-array name="callog_click_action_value">
-    <item>Call this contact</item>
-    <item>View call log</item>
+    <item>Łączy z tym kontaktem</item>
+    <item>Pokaż log połączeń</item>
   </string-array>
   <string-array name="number_match_style_value">
-    <item>By 11</item>
-    <item>By 7</item>
+    <item>Wg 11</item>
+    <item>Wg 7</item>
   </string-array>
   <item name="blade_full_sections" type="array">false</item>
   <item name="blade_indicator_tops" type="array">false</item>

@@ -233,7 +233,7 @@ The password has been encrypted to ensure secure transmission. You can use it wi
   <string name="lenovo_about_netconnect_alert">Ta operacja będzie korzystać z sieci , czy kontynuować?</string>
   <string name="lenovo_about_prompt">Prompt</string>
   <string name="ab_version_introduction">Introduction</string>
-  <string name="ab_contacts">Contacts</string>
+  <string name="ab_contacts">Kontakty</string>
   <string name="ab_feedback">Feedback</string>
   <string name="ab_checking_update">Checking for updates...</string>
   <string name="ab_downloading_update">Downloading updates...</string>
@@ -292,7 +292,7 @@ The password has been encrypted to ensure secure transmission. You can use it wi
   <string name="config_export_extensions_to_consider"/>
   <string name="config_export_dir_folder_name">Kontakt</string>
   <string name="config_export_dir_folder_name_ct">ct_backup</string>
-  <string name="im_name">Lenovo Message</string>
+  <string name="im_name">Lenovo wiadomość</string>
   <string name="im_hint_input_phone">Proszę podać numer telefonu</string>
   <string name="im_tip_getauthnuming">Pobieram kod sprawdzania autentyczności...</string>
   <string name="im_tip_logining">Loguję się...</string>
@@ -305,7 +305,7 @@ The password has been encrypted to ensure secure transmission. You can use it wi
   <string name="im_btn_send_authnum">Ponownie uzyskaj kod werycikacyjny</string>
   <string name="im_btn_send_web_authnum">Pobierz kod weryfikacyjny za pomocą web</string>
   <string name="im_next">Następny</string>
-  <string name="im_complete">Done</string>
+  <string name="im_complete">Zrobione</string>
   <string name="im_top_mid_phone">Podaj telefon</string>
   <string name="im_top_mid_authnum">Podaj kod weryfikacyjny</string>
   <string name="im_top_mid_userinfo">Wpisz swoje dane osobowe</string>
@@ -325,10 +325,10 @@ The password has been encrypted to ensure secure transmission. You can use it wi
   <string name="im_tx_userinfo_remind">Ustaw avatar, nick</string>
   <string name="im_userinfo_tip_saving">Zapisywanie informacji ...</string>
   <string name="im_verify_sms_start">【Lenovo】Login verification code:</string>
-  <string name="im_verify_sms_end">,From Lenovo Free SMS</string>
-  <string name="im_tip_open_feature_first">Lenovo SMS is not enabled</string>
+  <string name="im_verify_sms_end">, Darmowe SMS od Lenovo</string>
+  <string name="im_tip_open_feature_first">SMS Lenovo nie jest włączone</string>
   <string name="im_im_status_receive">Doręczono</string>
-  <string name="im_im_status_not_delivered">Undelivered</string>
+  <string name="im_im_status_not_delivered">Nie doręczono</string>
   <string name="im_btn_enter">Zaloguj</string>
   <string name="im_msg_not_network">Brak dostępnych sieci</string>
   <string name="im_msg_not_network_settings">Bieżąca sieć jest niedostępna, wyszukać nową sieć?</string>
@@ -338,19 +338,19 @@ The password has been encrypted to ensure secure transmission. You can use it wi
   <string name="im_ideafriend_pref_title_open_im">Otwórz darmowe SMS Lenovo</string>
   <string name="im_ideafriend_pref_summary_set_im">Dane konta</string>
   <string name="im_ideafriend_pref_title_set_im">Informacje o darmowym koncie SMS Lenovo</string>
-  <string name="im_ideafriend_pref_summary_set_im_slot1">SIM 1 account info</string>
-  <string name="im_ideafriend_pref_title_set_im_slot1">Lenovo Free SMS account info</string>
-  <string name="im_ideafriend_pref_summary_set_im_slot2">SIM 2 account info</string>
-  <string name="im_ideafriend_pref_title_set_im_slot2">Lenovo Free SMS account info</string>
+  <string name="im_ideafriend_pref_summary_set_im_slot1">SIM1 info o koncie</string>
+  <string name="im_ideafriend_pref_title_set_im_slot1">Lenovo Darmowe SMS informacje o koncie</string>
+  <string name="im_ideafriend_pref_summary_set_im_slot2">SIM2 info o koncie</string>
+  <string name="im_ideafriend_pref_title_set_im_slot2">Lenovo Darmowe SMS informacje o koncie</string>
   <string name="im_ideafriend_form_im">Darmowe SMS Lenovo</string>
   <string name="im_ideafriend_im_name">Idea Chat</string>
-  <string name="im_ideafriend_im_personal_info">Personal information</string>
+  <string name="im_ideafriend_im_personal_info">Informacje osobowe</string>
   <string name="im_ideafriend_im_user">Użytkownicy Darmowe SMS Lenovo mogą wysłać darmowe SMS</string>
   <string name="im_ideafriend_im_extra_credit">Porady:</string>
   <string name="im_ideafriend_im_extra_credit_content">Treść porady</string>
   <string name="im_ideafriend_im_resend_sms">Wyślij ponownie SMS</string>
   <string name="im_ideafriend_im_net_not_connect">Network error. The message will be sent as a text</string>
-  <string name="im_ideafriend_im_net_not_connect_no_sim">Network error</string>
+  <string name="im_ideafriend_im_net_not_connect_no_sim">Błąd sieci</string>
   <string name="im_ideafriend_warn">Warning</string>
   <string name="im_ideafriend_mms_mix_num">Free MMS cannot be sent to a group of friends at the moment. Click OK and the MMS will be sent with charges incurred</string>
   <string name="im_ideafriend_mms_mix_update_num">Go back and modify number</string>
@@ -365,8 +365,8 @@ The password has been encrypted to ensure secure transmission. You can use it wi
   <string name="im_pref_title_account_notlogin">您尚未登录</string>
   <string name="im_pref_summary_set_account">Ustaw konto IdeaChat</string>
   <string name="im_pref_summary_account">Użyłeś %0$s logowanie</string>
-  <string name="im_pref_title_set_user_info_not_set">Not set</string>
-  <string name="im_pref_title_set_user_info_photo">Photo</string>
+  <string name="im_pref_title_set_user_info_not_set">Nie ustawiono</string>
+  <string name="im_pref_title_set_user_info_photo">Zdjęcie</string>
   <string name="im_pref_title_set_user_signature">Personalized signature</string>
   <string name="im_pref_title_set_user_nick_name">Nickname</string>
   <string name="im_pref_title_set_off_line_msg">Wysyłanie wiadomości z priorytetem</string>
@@ -511,7 +511,7 @@ The password has been encrypted to ensure secure transmission. You can use it wi
   <string name="show_recent_create_contact">Pokaż ostatnio dodane kontakty</string>
   <string name="show_recent_create_contact_sm">Kontakty dodane w ciągu ostatnich 3 dni</string>
   <string name="callog_display_style">Tryb wyświetlania logu połączeń</string>
-  <string name="dial_start_action">Click the dial icon open</string>
+  <string name="dial_start_action">Kliknięcie ikony aplikacji otwiera</string>
   <string name="lunar_year">" , "</string>
   <string name="searchview_description_search">Szukaj</string>
   <string name="searchview_description_query">Szukaj</string>
@@ -741,7 +741,7 @@ To add a contact to your list of favorites:
   <string name="type_outgoing">Połączenie wychodzące</string>
   <string name="type_missed">Połączenie nieodebrane</string>
   <string name="type_voicemail">Poczta głosowa</string>
-  <string name="callDetailsDurationFormatHHMM" formatted="false">%s hour(s) %s min(s)</string>
+  <string name="callDetailsDurationFormatHHMM" formatted="false">%s godz %s min</string>
   <string name="callDetailsDurationFormat" formatted="false">%s min %s s</string>
   <string name="callDetailsDurationFormatOnlySeconds">%s s</string>
   <string name="favoritesFrequentContacted">Często używane kontakty</string>
@@ -1221,7 +1221,7 @@ To add a contact to your list of favorites:
   <string name="label_refresh_contacts">Odśwież kontakty</string>
   <string name="contact_edit_photo_camera">Aparat</string>
   <string name="contact_edit_photo_file">Zdjęcie</string>
-  <string name="contact_edit_photo_remove">Remove</string>
+  <string name="contact_edit_photo_remove">Usuń</string>
   <string name="missCallDurationFormat">Dzwonek %s sekund(y)</string>
   <string name="contact_ringtone">Dzwonek</string>
   <string name="contact_default_ringtone">Domyślny</string>
@@ -1800,7 +1800,7 @@ To add a contact to your list of favorites:
   <string name="text_card">Treść wizytówki</string>
   <string name="insert_card">Karta</string>
   <string name="vcard_card">vCard</string>
-  <string name="edit_my_text_card_msg">No personal profile, edit it now？</string>
+  <string name="edit_my_text_card_msg">Niespersonalizowano, edytować teraz?</string>
   <string name="inbox">Odebrane</string>
   <string name="outbox">Wysłane</string>
   <string name="draftbox">Wersje robocze</string>
@@ -1981,8 +1981,8 @@ To add a contact to your list of favorites:
   <string name="pref_title_common_contacts">Częste kontakty</string>
   <string name="pref_summary_common_contacts">Wyświetlaj ostatnie kontakty gdy tworzysz wiadomość</string>
   <string name="mark_all_conversations_as_read">Oznacz wszystkie jako przeczytane</string>
-  <string name="change_conversation_all">Switching to all</string>
-  <string name="change_conversation_favorite">Switching to favorite</string>
+  <string name="change_conversation_all">Przełączanie na wszystko</string>
+  <string name="change_conversation_favorite">Przełączanie na ulubione</string>
   <string name="pref_notification_alert_setting">Powiadomienia i alarmy</string>
   <string name="pref_advanced_setting">Ustawienia</string>
   <string name="select_message_prompt">Proszę wybrać wiadomość</string>
@@ -2045,30 +2045,30 @@ To add a contact to your list of favorites:
   <string name="call_log_lesafe">LenovoSafe</string>
   <string name="dial_input_wait">Wstaw symbol oczekiwania</string>
   <string name="dialpad_sendsms_cd">Wiadomość</string>
-  <string name="sms_fcn_normal">MMS application is normal.</string>
+  <string name="sms_fcn_normal">Aplikacja MMS jest normalna</string>
   <string name="sms_fcn_disabled">Niektóre funkcje SMS zostały wyłączone!</string>
   <string name="sms_fcn_restored">Przywracanie udane.</string>
   <string name="restore">Przywróć</string>
-  <string name="status_delete_without_read">Deleted without being read</string>
-  <string name="default_sms_prompt_text">"IdeaFriend may not work fine because it's not default SMS app. Go to fix it?"</string>
-  <string name="string_accordingto_citylocation">By Location</string>
-  <string name="sim_deactive_dialog_msg">SIM is deactived! Go to active it?</string>
-  <string name="sim_is_deactive">SIM is deactived!</string>
+  <string name="status_delete_without_read">Usunięte bez przeczytania</string>
+  <string name="default_sms_prompt_text">"IdeaFriend może nie działać poprawanie, ponieważ nie jest domyślną aplikacją SMS. Naprawić to?"</string>
+  <string name="string_accordingto_citylocation">Wg lokalizacji</string>
+  <string name="sim_deactive_dialog_msg">Karta SIM nieaktywna! Włączyć?</string>
+  <string name="sim_is_deactive">Karta SIM nieaktywna!</string>
   <string name="clone_dialog_quit_ok">OK</string>
-  <string name="clone_dialog_quit_cancel">Cancel</string>
+  <string name="clone_dialog_quit_cancel">Anuluj</string>
   <string name="clone_download_confirm_title">Shareit</string>
   <string name="clone_download_confirm_hint">Need latest version of Shareit to complete, download it now?</string>
   <string name="clone_downloading">Downloading Shareit...</string>
   <string name="clone_download_complete">Download completed, install now?</string>
-  <string name="clone_not_install">Not now</string>
-  <string name="clone_install_now">install now</string>
+  <string name="clone_not_install">Nie teraz</string>
+  <string name="clone_install_now">Instaluj teraz</string>
   <string name="clone_update_failed">Update failed. Please try again!</string>
   <string name="clone_update_failed_network">Network not available!</string>
   <string name="clone_update_failed_storage">Insufficient storage!</string>
   <string name="clone_update_notfound">No updates!</string>
   <string name="clone_update_latest">The version is current!</string>
-  <string name="import_contact_via_qiezi_empty">Import contacts from other phones</string>
-  <string name="import_contact_via_qiezi">Import from other phones</string>
+  <string name="import_contact_via_qiezi_empty">Importuj kontakty z innego telefonu</string>
+  <string name="import_contact_via_qiezi">Importuj z innego telefonu</string>
   <string name="import_contact_via_qiezi_hint">Import contacts from other phones via SHAREit</string>
   <string name="export_contact_via_qiezi">Export to other phones</string>
   <string name="export_contact_via_qiezi_hint">Export contacts to other phones via SHAREit</string>
@@ -2167,64 +2167,64 @@ To add a contact to your list of favorites:
   <string name="call_digits_tips_right_slide_dialpad">Przesuń klawiaturę w prawo aby zbliżyć go do siebie.</string>
   <string name="call_digits_tips_slide">Przesuń w prawo lub w lewo na liście i sprawdź niespodzianki.</string>
   <string name="call_digits_tips_smsfontsize">W rozmowie tekstowej rozsuń dwa palce od siebie, aby zwiększyć rozmiar czcionki.</string>
-  <string name="call_digits_tips_two_fingers_shrink">"In the contact list, made poke two fingers up and down movements, can show the person's default number."</string>
-  <string name="import_sim_card_contacts_to_phone">Copy SIM Contacts to phone</string>
-  <string name="import_sim_card_contacts_to_phone_hint">This function in some mobile phone may fail to run</string>
-  <string name="notifier_card_not_ready">SIM card not ready</string>
-  <string name="notifier_reading_contact_from_card">Reading contacts infomation from SIM card</string>
-  <string name="multichoice_vcards_limit_tips">Need to perform for a long period of time, in this process, please do not do other operations!</string>
-  <string name="import_vcards_complete_tips">The import operation has completed!</string>
-  <string name="hide_vice_card_button">Hidden vice card button</string>
-  <string name="hide_vice_card_button_summary">Set the main card, dial and SMS interface will not display vice card button</string>
-  <string name="guide_contact_detail_tip">Slide left or right on the list to enjoy fast operation</string>
-  <string name="guide_calllog_tip">Two fingers open can display hidden content</string>
-  <string name="guide_dialerlast_tip">Press the dialer key can redial and callback the last call</string>
+  <string name="call_digits_tips_two_fingers_shrink">"Na liście kontaktów, rozsuń dwa palce od siebie by zobaczyć nr telefonów"</string>
+  <string name="import_sim_card_contacts_to_phone">Kopiuj kontakty SIM na telefon</string>
+  <string name="import_sim_card_contacts_to_phone_hint">Funkcja ta w niektórych telefonach komórkowych może nie działać</string>
+  <string name="notifier_card_not_ready">Karta SIM nie gotowa</string>
+  <string name="notifier_reading_contact_from_card">Odczytywanie informacji o kontaktach z kart SIM</string>
+  <string name="multichoice_vcards_limit_tips">Do wykonania operacji potrzeba czasu, nie wykonuj żadnych operacji</string>
+  <string name="import_vcards_complete_tips">Importowanie zakończone!</string>
+  <string name="hide_vice_card_button">Ukryj przycisk drugiej karty</string>
+  <string name="hide_vice_card_button_summary">Ustaw domyślną kartę dla smsów i połączeń. Przycisk drugiej karty nie będzie wyświetlany.</string>
+  <string name="guide_contact_detail_tip">Przesuń w prawo lub w lewo, żeby wykonać szybką operację</string>
+  <string name="guide_calllog_tip">Rozsuń dwa palce od siebie by zobaczyć szczegóły </string>
+  <string name="guide_dialerlast_tip">Naciśnij klawisz ponownie, a dialer ostatnią rozmowę ponowi</string>
   <string name="guide_dialerfast_tip">After clicking to add contact,in the dial pad press setting key for long can call a contact directly</string>
-  <string name="guide_ok">Know</string>
-  <string name="guide_mms_twofinger">Two-finger poke to zoom</string>
-  <string name="guide_mms_zoomin">in</string>
-  <string name="guide_mms_zoomout">"/out "</string>
-  <string name="guide_mms_content">text</string>
-  <string name="sum_cell_broadcast_control_on">Enable cell broadcast</string>
-  <string name="sum_cell_broadcast_control_off">Disable cell broadcast</string>
-  <string name="enable">Enable</string>
-  <string name="disable">Disable</string>
-  <string name="cb_all_languages">All Languages</string>
-  <string name="cb_menu_add_channel">Add Channel</string>
-  <string name="cb_error_channel_name">The length of Channel name is not correct(1-10characters).</string>
-  <string name="cb_error_channel_num">Please input channel number(0-65534).</string>
-  <string name="cb_error_channel_id_exist">The channel id exists.</string>
-  <string name="cb_channel_dialog_edit_channel">Edit Channel</string>
-  <string name="cb_default_new_channel_name">New Channel</string>
-  <string name="cb_dialog_title_language_choice">Select language</string>
-  <string name="cb_error_language_select">Please select at least one language.</string>
-  <string name="cb_menu_edit">Edit</string>
-  <string name="cb_menu_delete">Delete</string>
-  <string name="reading_settings">Reading settings…</string>
-  <string name="updating_settings">Updating settings…</string>
-  <string name="exception_error">Network or SIM card error.</string>
+  <string name="guide_ok">Wiem</string>
+  <string name="guide_mms_twofinger">Rozuń dwa palce, by przybliżyć</string>
+  <string name="guide_mms_zoomin">W</string>
+  <string name="guide_mms_zoomout">"/po za"</string>
+  <string name="guide_mms_content">tekst</string>
+  <string name="sum_cell_broadcast_control_on">Włącz nadawanie komórkowe</string>
+  <string name="sum_cell_broadcast_control_off">Wyłącz nadawanie komórkowe</string>
+  <string name="enable">Włącz</string>
+  <string name="disable">Wyłącz</string>
+  <string name="cb_all_languages">Wszystkie języki</string>
+  <string name="cb_menu_add_channel">Dodaj kanał</string>
+  <string name="cb_error_channel_name">Nazwa kanału jest zbyt długa (1-10 znaków).</string>
+  <string name="cb_error_channel_num">Wprowadź prawidłowy numer kanału (0-65534).</string>
+  <string name="cb_error_channel_id_exist">Kanał o takim ID już istnieje.</string>
+  <string name="cb_channel_dialog_edit_channel">Edytuj kanał</string>
+  <string name="cb_default_new_channel_name">Nowy kanał</string>
+  <string name="cb_dialog_title_language_choice">Wybierz język</string>
+  <string name="cb_error_language_select">Wybierz przynajmniej jeden język.</string>
+  <string name="cb_menu_edit">Edytuj</string>
+  <string name="cb_menu_delete">Usuń</string>
+  <string name="reading_settings">Czytanie ustawień...</string>
+  <string name="updating_settings">Aktualizowanie ustawień...</string>
+  <string name="exception_error">Błąd sieci lub karty SIM.</string>
   <string name="close_dialog">OK</string>
-  <string name="sum_cell_broadcast_setting">Language and channel setting for cell broadcast</string>
-  <string name="cb_menu_language">Language</string>
-  <string name="cb_menu_channel_list">Channel list</string>
-  <string name="cb_channel_dialog_channel_name">Channel name (0-10 characters)</string>
-  <string name="cb_channel_dialog_channel_number">Channel number (0-65534)</string>
-  <string name="cb_channel_dialog_channel_state">Enable the channel</string>
+  <string name="sum_cell_broadcast_setting">Ustawienia języka i kanału dla nadawania komórkowego</string>
+  <string name="cb_menu_language">Język</string>
+  <string name="cb_menu_channel_list">Lista kanałów</string>
+  <string name="cb_channel_dialog_channel_name">Nazwa kanału (1-10 znaków)</string>
+  <string name="cb_channel_dialog_channel_number">Numer kanału (0-65534)</string>
+  <string name="cb_channel_dialog_channel_state">Włącz kanał</string>
   <string name="group_add_no_group_contacts">Nie grupuj kontaktów</string>
-  <string name="callog_click_action">Click call log actions</string>
-  <string name="private_msg">Private messages</string>
-  <string name="private_msg_settings">Private settings</string>
-  <string name="new_private_msg_notify">New message notification</string>
-  <string name="private_msg_lock">Password lock</string>
-  <string name="private_msg_pattern_visiable">Visible pattern</string>
-  <string name="private_people">Private contacts</string>
-  <string name="private_people_empty">Set private contacts to password protect your messages with them and protect your privacy!</string>
-  <string name="private_setting_lock_pattern">Set unlock pattern for private messages</string>
-  <string name="private_msg_select_pattern">Please select a pattern</string>
-  <string name="lockpattern_confirm_button_text">Confirm</string>
-  <string name="lockpattern_retry_button_text">Retry</string>
-  <string name="lockpattern_continue_button_text">Continue</string>
-  <string name="lockpattern_recording_inprogress">Lift finger when done</string>
+  <string name="callog_click_action">Kliknięcie logu połączenia</string>
+  <string name="private_msg">Prywatne wiadomości</string>
+  <string name="private_msg_settings">Prywatne ustawienia</string>
+  <string name="new_private_msg_notify">Powiadomienie o nowej wiadomości</string>
+  <string name="private_msg_lock">Ochrona hasłem</string>
+  <string name="private_msg_pattern_visiable">Widoczny wzór</string>
+  <string name="private_people">Prywatne kontakty</string>
+  <string name="private_people_empty">Ustaw prywatne kontakty by zabezpieczyć hasłem wiadomości z nimi i chronić swoją prywatność!</string>
+  <string name="private_setting_lock_pattern">Ustaw wzór odblokowania do prywatnych wiadomości</string>
+  <string name="private_msg_select_pattern">Proszę wybrać wzór</string>
+  <string name="lockpattern_confirm_button_text">Potwierdź</string>
+  <string name="lockpattern_retry_button_text">Ponów</string>
+  <string name="lockpattern_continue_button_text">Kontynuuj</string>
+  <string name="lockpattern_recording_inprogress">Podnieś palec po zakończeniu</string>
   <string name="lockpattern_recording_incorrect_too_short">Connect at least %d dots. Try again.</string>
   <string name="lockpattern_pattern_entered_header">Pattern recorded</string>
   <string name="lockpattern_need_to_confirm">Draw pattern again to confirm</string>
@@ -2232,10 +2232,10 @@ To add a contact to your list of favorites:
   <string name="lockpattern_pattern_confirmed_header">Your new unlock pattern</string>
   <string name="private_msg_confirm_lockpattern">Confirm your unlock pattern</string>
   <string name="private_msg_please_input_lockpattern">Please input private message unlock pattern</string>
-  <string name="dialpad_recently_contact">Recent contacts</string>
-  <string name="dialpad_remove_from_frequent">Remove from list</string>
-  <string name="dialpad_clear_frequent">Clear frequent list</string>
-  <string name="dialpad_empty_frequent">No contacts at the moment</string>
+  <string name="dialpad_recently_contact">Ostatnie kontakty</string>
+  <string name="dialpad_remove_from_frequent">Usuń z listy</string>
+  <string name="dialpad_clear_frequent">Wyczyść listę częstych połączeń</string>
+  <string name="dialpad_empty_frequent">Brak kontaktów w tym momencie</string>
   <string name="menu_calllog_mark_modify">Modyfikuj podpis</string>
   <string name="menu_calllog_mark_delete">Usuń podpis</string>
   <string name="callDetailsDurationNotConnected">Niepołączony</string>
@@ -2244,37 +2244,37 @@ To add a contact to your list of favorites:
   <string name="contact_detail_getting_weather">Getting local weather...</string>
   <string name="contact_detail_no_weather">"Can't get local weather"</string>
   <string name="contact_detail_flow_weather">Pulling down to get local weather will generate data traffic. For mobile data traffic fees, please consult your local service provider. Do you still want to establish a connection?</string>
-  <string name="contact_detail_join">Join</string>
-  <string name="contact_detail_join_contact">Join contacts</string>
-  <string name="contact_detail_joined_contact">Joined contacts</string>
-  <string name="contact_detail_joined_max">You cannot join more than %1$s contacts</string>
-  <string name="contact_detail_joining">Joining contacts</string>
-  <string name="contact_detail_join_success">Contacts joined</string>
-  <string name="contact_detail_cancel_joining">Canceling join contacts</string>
-  <string name="contact_detail_cancel_join_success">Canceled join contacts</string>
+  <string name="contact_detail_join">Połącz</string>
+  <string name="contact_detail_join_contact">Połącz kontakty</string>
+  <string name="contact_detail_joined_contact">Połączone kontakty</string>
+  <string name="contact_detail_joined_max">Nie możesz połączyć, więcej niż %1$s kontaktów</string>
+  <string name="contact_detail_joining">Łączenie kontaktów</string>
+  <string name="contact_detail_join_success">Kontakty połączone</string>
+  <string name="contact_detail_cancel_joining">Anulowanie łączenie kontaktów</string>
+  <string name="contact_detail_cancel_join_success">Anulowano łączenie kontaktów</string>
   <string name="pullto_start_leavemode">Pull down to enable away mode</string>
   <string name="loosen_enters_away_mode">Release to enter away mode</string>
-  <string name="internal_sdcard">Internal storage</string>
-  <string name="external_sdcard">External storage</string>
-  <string name="more_dispaly_setting">More display features</string>
-  <string name="more_dispaly_setting_hint">Setting Location,Text Avatar,Call log display method</string>
+  <string name="internal_sdcard">Pamięć wewnętrzna</string>
+  <string name="external_sdcard">Pamięć zewnętrzna</string>
+  <string name="more_dispaly_setting">Więcej funkcji wyświetlania</string>
+  <string name="more_dispaly_setting_hint">Ustawienia lokacji, awatarów, wyświetlania logu połączeń</string>
   <string name="number_match_style">Number match bits</string>
   <string name="alert_email_address_msg">There is an email address in your recipients, message will be sent by MMS. And it will cost more.</string>
   <string name="whether_export_item_to_file">Do you want to export SMS to file:%s?</string>
-  <string name="my_text_card">My text business card</string>
-  <string name="updating_title">CellBroadcast Setting</string>
-  <string name="error_updating_title">CellBroadcast Setting Error</string>
-  <string name="contact_detail_duration_format" formatted="false">%s hour(s)%s min(s)</string>
-  <string name="copy_all">Copy all</string>
-  <string name="noti_msg">SMS notification</string>
+  <string name="my_text_card">Moja wizytówka</string>
+  <string name="updating_title">Ustawienia połączeń</string>
+  <string name="error_updating_title">Błąd w ustawieniach połączenia</string>
+  <string name="contact_detail_duration_format" formatted="false">%s godz %s min</string>
+  <string name="copy_all">Kopiuj wszystkie</string>
+  <string name="noti_msg">Powiadomienia SMS</string>
   <string name="insert_recorder">Insert Recorder</string>
-  <string name="audio_db_artist_name">Your recordings</string>
-  <string name="audio_db_album_name">Audio recordings</string>
-  <string name="audio_db_playlist_name">My recordings</string>
+  <string name="audio_db_artist_name">Twoje nagrania</string>
+  <string name="audio_db_album_name">Nagrania Audio</string>
+  <string name="audio_db_playlist_name">Moje nagrania</string>
   <string name="error_mediadb_new_record">"Couldn't save recorded audio."</string>
   <string name="audio_db_title_format">yyyy-MM-dd HH:mm:ss</string>
-  <string name="max_length_reached">Maximum length reached</string>
-  <string name="error_sdcard_access">"Can't access SD card."</string>
+  <string name="max_length_reached">Maksymalna długość osiągnięta</string>
+  <string name="error_sdcard_access">Nie można odczytać karty SD</string>
   <string name="error_app_internal">Internal application error.</string>
   <string name="error_app_unsupported">Format not supported</string>
   <string name="insert_sd_card">Insert an SD card</string>
@@ -2287,20 +2287,567 @@ To add a contact to your list of favorites:
   <string name="string_accordingto_groupMessage">By Group Message</string>
   <string name="dialog_msg_create_group">Do you want to create a new group ?</string>
   <string name="dialog_msg_create_group_for_grpmsg">Do you want to create a new group ? (A strange number will not be added .)</string>
-  <string name="has_read">read</string>
-  <string name="mark_read">mark read</string>
-  <string name="dial_input_pause">Insert 2s pause symbol</string>
+  <string name="has_read">przeczytano</string>
+  <string name="mark_read">oznacz jako przeczytane</string>
+  <string name="dial_input_pause">Wstaw symbol pauzy</string>
   <string name="bind_sina_weibo_str">Sina micro-blog binding</string>
-  <string name="bind_sina_weibo_hint">Unbound</string>
-  <string name="add_sina_account_str">Add account</string>
-  <string name="update_contacts_db">Update the Contacts</string>
-  <string name="updating_contacts_db">Updating the Contacts...</string>
-  <string name="unbind_sina_weibo_str">Lift the accounts</string>
+  <string name="bind_sina_weibo_hint">Bez ograniczeń</string>
+  <string name="add_sina_account_str">Dodaj konto</string>
+  <string name="update_contacts_db">Aktualizuj kontakty</string>
+  <string name="updating_contacts_db">Aktualizowanie kontaktów</string>
+  <string name="unbind_sina_weibo_str">Podnieść rachunki</string>
   <string name="bind_sina_weibo_instruction">Your mail list of e-mail addresses and telephone numbers will use to bind micro-blog Sina, include micro-blog nickname, birthday and photos to your contacts.</string>
-  <string name="more_account">more account</string>
-  <string name="combine_smart_clear_title">Intelligent manage contacts</string>
-  <string name="combine_smart_clear_no_contact">There is no contacts which need to be intelligent manage</string>
+  <string name="more_account">więcej kont</string>
+  <string name="combine_smart_clear_title">Inteligentne zarządzanie kontaktami</string>
+  <string name="combine_smart_clear_no_contact">Brak kontaktów, które muszą być inteligentnie zarządzane</string>
   <string name="import_export_none_contact_tablet_tips">No tablet account contacts. Export unnecessary</string>
-  <string name="yp_flow_control">Yellow page flow control</string>
-  <string name="yp_flow_control_summary">Only WiFi loading pages of pictures, save flow</string>
+  <string name="yp_flow_control">Kontrola przepływu danych</string>
+  <string name="yp_flow_control_summary">Ładowanie obrazków stron tylko przy WiFi</string>
+  <item name="APKTOOL_DUMMY_088c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_088d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_088e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_088f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0890" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0891" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0892" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0893" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0894" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0895" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0896" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0897" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0898" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0899" type="string">false</item>
+  <item name="APKTOOL_DUMMY_089a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_089b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_089c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_089d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_089e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_089f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08a0" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08a1" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08a2" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08a3" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08a4" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08a5" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08a6" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08a7" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08a8" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08a9" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08aa" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08ab" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08ac" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08ad" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08ae" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08af" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08b0" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08b1" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08b2" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08b3" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08b4" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08b5" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08b6" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08b7" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08b8" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08b9" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08ba" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08bb" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08bc" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08bd" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08be" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08bf" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08c0" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08c1" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08c2" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08c3" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08c4" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08c5" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08c6" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08c7" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08c8" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08c9" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08ca" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08cb" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08cc" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08cd" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08ce" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08cf" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08d0" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08d1" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08d2" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08d3" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08d4" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08d5" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08d6" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08d7" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08d8" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08d9" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08da" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08db" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08dc" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08dd" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08de" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08df" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08e0" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08e1" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08e2" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08e3" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08e4" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08e5" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08e6" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08e7" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08e8" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08e9" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08ea" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08eb" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08ec" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08ed" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08ee" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08ef" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08f0" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08f1" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08f2" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08f3" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08f4" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08f5" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08f6" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08f7" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08f8" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08f9" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08fa" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08fb" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08fc" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08fd" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08fe" type="string">false</item>
+  <item name="APKTOOL_DUMMY_08ff" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0900" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0901" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0902" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0903" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0904" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0905" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0906" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0907" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0908" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0909" type="string">false</item>
+  <item name="APKTOOL_DUMMY_090a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_090b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_090c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_090d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_090e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_090f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0910" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0911" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0912" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0913" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0914" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0915" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0916" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0917" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0918" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0919" type="string">false</item>
+  <item name="APKTOOL_DUMMY_091a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_091b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_091c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_091d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_091e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_091f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0920" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0921" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0922" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0923" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0924" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0925" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0926" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0927" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0928" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0929" type="string">false</item>
+  <item name="APKTOOL_DUMMY_092a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_092b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_092c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_092d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_092e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_092f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0930" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0931" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0932" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0933" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0934" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0935" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0936" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0937" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0938" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0939" type="string">false</item>
+  <item name="APKTOOL_DUMMY_093a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_093b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_093c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_093d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_093e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_093f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0940" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0941" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0942" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0943" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0944" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0945" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0946" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0947" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0948" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0949" type="string">false</item>
+  <item name="APKTOOL_DUMMY_094a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_094b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_094c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_094d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_094e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_094f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0950" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0951" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0952" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0953" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0954" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0955" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0956" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0957" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0958" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0959" type="string">false</item>
+  <item name="APKTOOL_DUMMY_095a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_095b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_095c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_095d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_095e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_095f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0960" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0961" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0962" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0963" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0964" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0965" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0966" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0967" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0968" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0969" type="string">false</item>
+  <item name="APKTOOL_DUMMY_096a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_096b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_096c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_096d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_096e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_096f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0970" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0971" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0972" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0973" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0974" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0975" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0976" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0977" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0978" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0979" type="string">false</item>
+  <item name="APKTOOL_DUMMY_097a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_097b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_097c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_097d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_097e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_097f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0980" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0981" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0982" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0983" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0984" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0985" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0986" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0987" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0988" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0989" type="string">false</item>
+  <item name="APKTOOL_DUMMY_098a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_098b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_098c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_098d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_098e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_098f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0990" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0991" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0992" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0993" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0994" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0995" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0996" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0997" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0998" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0999" type="string">false</item>
+  <item name="APKTOOL_DUMMY_099a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_099b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_099c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_099d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_099e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_099f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09a0" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09a1" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09a2" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09a3" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09a4" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09a5" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09a6" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09a7" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09a8" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09a9" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09aa" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09ab" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09ac" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09ad" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09ae" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09af" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09b0" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09b1" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09b2" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09b3" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09b4" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09b5" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09b6" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09b7" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09b8" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09b9" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09ba" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09bb" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09bc" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09bd" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09be" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09bf" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09c0" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09c1" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09c2" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09c3" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09c4" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09c5" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09c6" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09c7" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09c8" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09c9" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09ca" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09cb" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09cc" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09cd" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09ce" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09cf" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09d0" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09d1" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09d2" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09d3" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09d4" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09d5" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09d6" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09d7" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09d8" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09d9" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09da" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09db" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09dc" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09dd" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09de" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09df" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09e0" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09e1" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09e2" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09e3" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09e4" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09e5" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09e6" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09e7" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09e8" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09e9" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09ea" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09eb" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09ec" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09ed" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09ee" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09ef" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09f0" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09f1" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09f2" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09f3" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09f4" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09f5" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09f6" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09f7" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09f8" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09f9" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09fa" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09fb" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09fc" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09fd" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09fe" type="string">false</item>
+  <item name="APKTOOL_DUMMY_09ff" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a00" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a01" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a02" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a03" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a04" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a05" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a06" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a07" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a08" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a09" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a0a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a0b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a0c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a0d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a0e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a0f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a10" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a11" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a12" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a13" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a14" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a15" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a16" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a17" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a18" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a19" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a1a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a1b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a1c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a1d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a1e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a1f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a20" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a21" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a22" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a23" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a24" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a25" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a26" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a27" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a28" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a29" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a2a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a2b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a2c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a2d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a2e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a2f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a30" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a31" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a32" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a33" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a34" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a35" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a36" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a37" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a38" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a39" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a3a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a3b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a3c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a3d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a3e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a3f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a40" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a41" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a42" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a43" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a44" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a45" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a46" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a47" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a48" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a49" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a4a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a4b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a4c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a4d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a4e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a4f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a50" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a51" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a52" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a53" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a54" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a55" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a56" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a57" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a58" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a59" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a5a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a5b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a5c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a5d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a5e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a5f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a60" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a61" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a62" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a63" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a64" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a65" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a66" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a67" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a68" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a69" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a6a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a6b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a6c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a6d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a6e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a6f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a70" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a71" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a72" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a73" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a74" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a75" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a76" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a77" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a78" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a79" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a7a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a7b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a7c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a7d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a7e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a7f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a80" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a81" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a82" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a83" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a84" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a85" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a86" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a87" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a88" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a89" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a8a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a8b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a8c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a8d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a8e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a8f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a90" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a91" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a92" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a93" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a94" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a95" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a96" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a97" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a98" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a99" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a9a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a9b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a9c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a9d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a9e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0a9f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0aa0" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0aa1" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0aa2" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0aa3" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0aa4" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0aa5" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0aa6" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0aa7" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0aa8" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0aa9" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0aaa" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0aab" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0aac" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0aad" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0aae" type="string">false</item>
 </resources>

@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<resources>
+  <string-array name="profile_title_list">
+    <item>Standardowy</item>
+    <item>Wyciszony</item>
+    <item>Wibracje</item>
+    <item>Zewnątrz</item>
+    <item>Jazda Samochodem</item>
+  </string-array>
+</resources>

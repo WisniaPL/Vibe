@@ -1,79 +1,79 @@
 <?xml version="1.0"?>
 <resources>
   <plurals name="listTotalAllContacts">
-    <item quantity="other">%d contacts</item>
-    <item quantity="one">1 contact</item>
+    <item quantity="other">%d kontaktów</item>
+    <item quantity="one">1 kontakt</item>
   </plurals>
   <plurals name="searchFoundContacts">
-    <item quantity="other">%d found</item>
-    <item quantity="one">1 found</item>
+    <item quantity="other">%d znaleziono</item>
+    <item quantity="one">1 znaleziono</item>
   </plurals>
   <plurals name="num_contacts_in_group">
-    <item quantity="other">%1$d people from %2$s</item>
-    <item quantity="one">%1$d person from %2$s</item>
+    <item quantity="other">%1$d ludzi z %2$s</item>
+    <item quantity="one">%1$d osoba z %2$s</item>
   </plurals>
   <plurals name="group_list_num_contacts_in_group">
-    <item quantity="other">%1$d people</item>
-    <item quantity="one">%1$d person</item>
+    <item quantity="other">%1$d ludzi</item>
+    <item quantity="one">%1$d osoba</item>
   </plurals>
   <plurals name="notification_voicemail_title">
-    <item quantity="other">%1$d Voicemails</item>
-    <item quantity="one">Voicemail</item>
+    <item quantity="other">%1$d głosowych</item>
+    <item quantity="one">Poczta głosowa</item>
   </plurals>
   <plurals name="searchFoundCalllogs">
-    <item quantity="other">%d call logs</item>
-    <item quantity="one">1 call log</item>
+    <item quantity="other">%d logów połączeń</item>
+    <item quantity="one">1 log połączeń</item>
   </plurals>
   <plurals name="search_listTotalAllContacts">
-    <item quantity="other">Szukaj kontaktów | Razem %d</item>
-    <item quantity="one">Szukaj kontaktów | Razem 1</item>
+    <item quantity="other">Szukaj kontaków | Razem %d</item>
+    <item quantity="one">Szukaj kontaków | Razem 1</item>
   </plurals>
   <plurals name="group_member_number">
-    <item quantity="other">%d member(s)</item>
-    <item quantity="one">1 member</item>
+    <item quantity="other">%d użytkowników</item>
+    <item quantity="one">1 użytkownik</item>
   </plurals>
   <plurals name="confirm_delete_conversation">
-    <item quantity="other">%1$s conversations will be deleted</item>
-    <item quantity="one">1 conversation will be deleted</item>
+    <item quantity="other">%1$s rozmowy zostaną usunięte</item>
+    <item quantity="one">1 rozmowa zostanie usunięta</item>
   </plurals>
   <plurals name="notification_multiple">
-    <item quantity="other">%d unread messages.</item>
-    <item quantity="one">%d unread message.</item>
+    <item quantity="other">%d nieprzeczytanych wiadomości.</item>
+    <item quantity="one">%d nieprzeczytana wiadomość</item>
   </plurals>
   <plurals name="slide_duration">
-    <item quantity="other">%s secs</item>
-    <item quantity="one">%s sec</item>
-    <item quantity="few">%s secs</item>
+    <item quantity="other">%s sekund</item>
+    <item quantity="one">%s sekunda</item>
+    <item quantity="few">%s sekundy</item>
   </plurals>
   <plurals name="search_results_title">
-    <item quantity="other">%1$s results for \"%2$s\"</item>
-    <item quantity="one">%1$s result for \"%2$s\"</item>
+    <item quantity="other">%1$s wyniki dla \"%2$s\"</item>
+    <item quantity="one">%1$s wynik dla \"%2$s\"</item>
   </plurals>
   <plurals name="recipient_count">
-    <item quantity="other">%1$s people</item>
+    <item quantity="other">%1$s ludzie</item>
   </plurals>
   <plurals name="read_report_toast_msg">
     <item quantity="other">sending %d read reports</item>
     <item quantity="one">sending %d read report</item>
   </plurals>
   <plurals name="message_view_selected_message_count">
-    <item quantity="other">%d selected</item>
-    <item quantity="one">%d selected</item>
+    <item quantity="other">%d wybrane</item>
+    <item quantity="one">%d wybrane</item>
   </plurals>
   <plurals name="group_messages_sending">
-    <item quantity="other">%1$s messages sending...</item>
-    <item quantity="one">%1$s message sending...</item>
+    <item quantity="other">%1$s wiadomości wysyłane...</item>
+    <item quantity="one">%1$s wiadomość wysłana...</item>
   </plurals>
   <plurals name="group_messages_sent">
-    <item quantity="other">%1$s messages has been sent.</item>
-    <item quantity="one">%1$s message has been sent.</item>
+    <item quantity="other">%1$s wiadomości zostałe wysłane.</item>
+    <item quantity="one">%1$s wiadomość została wysłana.</item>
   </plurals>
   <plurals name="group_messages_failed">
-    <item quantity="other">%1$s messages has been sent failed.</item>
-    <item quantity="one">%1$s message has been sent failed.</item>
+    <item quantity="other">%1$s wiadomości nie zostały wysłane.</item>
+    <item quantity="one">%1$s wiadomość nie została wysłana.</item>
   </plurals>
   <plurals name="group_messages_address_title">
-    <item quantity="other">%1$s recipients.</item>
-    <item quantity="one">%1$s recipient.</item>
+    <item quantity="other">%1$s odbiorców.</item>
+    <item quantity="one">%1$s odbiorca.</item>
   </plurals>
 </resources>
