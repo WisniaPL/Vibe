@@ -41,7 +41,7 @@
   <string name="app_label">Zegar</string>
   <string name="alarm_list_title">Alarmy</string>
   <string name="add_alarm">Dodaj alarm</string>
-  <string name="alarm_timeline_title_text">NEXT ALARMS</string>
+  <string name="alarm_timeline_title_text">NASTĘPNE ALARMY</string>
   <string name="menu_desk_clock">Zegar biurkowy</string>
   <string name="menu_edit_alarm">Edytuj alarm</string>
   <string name="delete_alarm">Usuń alarm</string>
@@ -272,7 +272,7 @@
   <string name="exist">exist</string>
   <string name="keep_on">keep on</string>
   <string name="display_once">Nie przypominaj mi więcej</string>
-  <string name="lenovo_dim_mode">Dim night mode</string>
+  <string name="lenovo_dim_mode">Tryb nocny</string>
   <string name="lenovo_show_alarm">Pokaż alarm</string>
   <string name="lenovo_time_to">"    To    "</string>
   <string name="lenovo_dim_setting_error_title">Time setting error!</string>

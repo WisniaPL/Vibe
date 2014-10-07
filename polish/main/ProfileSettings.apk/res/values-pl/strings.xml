@@ -135,8 +135,8 @@
   <string name="service_foreground_processes_ram">%1$s app used</string>
   <string name="display_smart_standby">Inteligentne wstrzymanie</string>
   <string name="smart_standby_ctrl_description">When the screen-off time is coming to open the front camera, bright the screen as detected the phone facing to your face, conversely turn off the screen.</string>
-  <string name="smart_scene_title">Smart Scene</string>
-  <string name="smart_scene_summary">You can set your profile at specified time, you can also set your profile at specified WLAN.</string>
+  <string name="smart_scene_title">Rozpoznawanie miejsca</string>
+  <string name="smart_scene_summary">Możesz ustawić profil w zależności od czasu i miejsca.</string>
   <string name="exit">Wyjście</string>
   <string name="wifi_backup">WLAN Config Backup</string>
   <string name="wifi_backup_category_title">WLAN Backup</string>
