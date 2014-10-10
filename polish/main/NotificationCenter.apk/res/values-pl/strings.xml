@@ -760,7 +760,7 @@ The password has been encrypted to ensure secure transmission. You can use it wi
   <string name="lenovo_clock_type_show_am_pm">show_am_pm_style</string>
   <string name="lenovo_dlg_ok">OK</string>
   <string name="lenovo_dlg_cancel">Anuluj</string>
-  <string name="automatic_brightness">Auto jasność</string>
+  <string name="automatic_brightness">Auto</string>
   <string name="lenovo_progress_dialog_message">Ładowanie...</string>
   <string name="lenovo_status_bar_sim_name">Operator name：%s</string>
   <string name="lenovo_status_bar_wifi_name">Connected to：%s</string>
