@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<resources>
-  <plurals name="status_bar_accessibility_recent_apps">
-    <item quantity="other">%d nowych aplikacji</item>
-    <item quantity="one">1 nowa aplikacja</item>
-  </plurals>
-</resources>
