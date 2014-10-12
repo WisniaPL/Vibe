@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<resources>
+  <plurals name="delete_selection">
+    <item quantity="other">Usunąć wybraną zawartość?</item>
+    <item quantity="one">Usunąć wybraną zawartość?</item>
+  </plurals>
+  <plurals name="number_of_items_selected">
+    <item quantity="other">%1$d plików</item>
+    <item quantity="zero">%1$d plików</item>
+    <item quantity="one">%1$d plik</item>
+  </plurals>
+  <plurals name="number_of_albums_selected">
+    <item quantity="other">%1$d albumów wybranych</item>
+    <item quantity="zero">%1$d albumów wybranych</item>
+    <item quantity="one">%1$d album wybrany</item>
+  </plurals>
+  <plurals name="number_of_groups_selected">
+    <item quantity="other">%1$d grup wybranych</item>
+    <item quantity="zero">%1$d grup wybranych</item>
+    <item quantity="one">%1$d grupa wybrana</item>
+  </plurals>
+  <plurals name="make_albums_available_offline">
+    <item quantity="other">Allow offline viewing an album.</item>
+    <item quantity="one">Allow offline viewing an album.</item>
+  </plurals>
+</resources>
