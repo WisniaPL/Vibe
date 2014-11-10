@@ -143,7 +143,7 @@
     <item/>
     <item>Skanowanie</item>
     <item>Łączenie...</item>
-    <item>Authenticating…</item>
+    <item>Uwierzytelnianie ...</item>
     <item>Uzyskiwanie adresu IP…</item>
     <item>Połączono</item>
     <item>Wstrzymane</item>
@@ -210,6 +210,7 @@
     <item>Nigdy</item>
   </string-array>
   <string-array name="wifi_signal">
+    <item>Bardzo słaby</item>
     <item>Słaby</item>
     <item>Niezły</item>
     <item>Dobry</item>
@@ -339,12 +340,12 @@
     <item>Niech system zdecyduje</item>
   </string-array>
   <string-array name="app_install_location_values">
-    <item>Urządzenie</item>
-    <item>Karta SD</item>
+    <item>device</item>
+    <item>sdcard</item>
     <item>auto</item>
   </string-array>
   <string-array name="app_ops_categories">
-    <item>Locacja</item>
+    <item>Lokacja</item>
     <item>Personalne</item>
     <item>Wiadomości</item>
     <item>Media</item>
@@ -354,7 +355,7 @@
     <item>coarse location</item>
     <item>fine location</item>
     <item>GPS</item>
-    <item>vibrate</item>
+    <item>wibracja</item>
     <item>read contacts</item>
     <item>modify contacts</item>
     <item>read call log</item>
@@ -893,6 +894,16 @@
     <item>2</item>
     <item>1</item>
     <item>0</item>
+    <item>3</item>
+  </string-array>
+  <string-array name="entries_volume_up_option">
+    <item>Bright screen(Click the volume keys to bright screen)</item>
+    <item>Topspeed snapping(When screen off,Double click the volume-down keys to snap pictures)</item>
+    <item>Wyłączone</item>
+  </string-array>
+  <string-array name="entryvalues_volume_up_option">
+    <item>1</item>
+    <item>2</item>
     <item>3</item>
   </string-array>
   <array name="wifi_security_wfa">

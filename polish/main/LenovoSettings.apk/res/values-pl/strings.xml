@@ -3,21 +3,23 @@
   <string name="additional_system_update"/>
   <string name="additional_system_update_menu"/>
   <string name="config_backup_category_title">Lokalizacja</string>
-  <string name="config_backup_title">将设置数据备份到云端</string>
-  <string name="config_backup_summary">将设置数据(铃声，壁纸等)备份到云端</string>
-  <string name="config_restore_category_title">设置云恢复</string>
-  <string name="config_restore_title">将设置数据从云端还原</string>
-  <string name="config_restore_summary">将设置数据(铃声，壁纸等)从云端还原</string>
-  <string name="wlan_backup">wlan设置数据备份</string>
-  <string name="wallpaper_backup">壁纸设置数据备份</string>
-  <string name="ringtone_backup">铃声设置数据备份</string>
-  <string name="flag_backup">开关设置数据备份</string>
-  <string name="wlan_restore">wlan设置数据还原</string>
-  <string name="wallpaper_restore">壁纸设置数据还原</string>
-  <string name="ringtone_restore">铃声设置数据还原</string>
-  <string name="flag_restore">开关设置数据还原</string>
+  <string name="config_backup_title">Backup settings data to cloud</string>
+  <string name="config_backup_summary">Backup settings data(ringtone, wallpaper etc)to cloud</string>
+  <string name="config_restore_category_title">Config Restore</string>
+  <string name="config_restore_title">Restore settings data from cloud</string>
+  <string name="config_restore_summary">Restore settings data(ringtone, wallpaper etc)from cloud</string>
+  <string name="wlan_backup">Backup wlan settings</string>
+  <string name="wallpaper_backup">Backup wallpaper</string>
+  <string name="ringtone_backup">Backup ringtone</string>
+  <string name="flag_backup">Backup character settings</string>
+  <string name="wlan_restore">Restore wlan settings</string>
+  <string name="wallpaper_restore">Restore wallpaper</string>
+  <string name="ringtone_restore">Retore ringtone</string>
+  <string name="flag_restore">Restore character settings</string>
   <string name="start_backup">备份</string>
   <string name="start_restore">还原</string>
+  <string name="backup_finished">Backup finished</string>
+  <string name="restore_finished">Restore finished</string>
   <string name="input_method_selector_show_automatically_value">0</string>
   <string name="input_method_selector_always_show_value">1</string>
   <string name="input_method_selector_always_hide_value">2</string>
@@ -34,13 +36,14 @@
   <string name="disturb_mode_enable">Activating Do Not Disturb mode</string>
   <string name="click_to_set">Dotknij by przejść do ustawień</string>
   <string name="disturb_enabling">Włączanie...</string>
-  <string name="disturb_settings_title4">Do Not Disturb Mode Off</string>
+  <string name="disturb_settings_title_closed">Do Not Disturb Mode Off</string>
   <string name="add_whitename">Dodaj kontakt do białej listy</string>
   <string name="phone_white_list">Biała lista</string>
   <string name="remove_whitename">Usuń</string>
   <string name="remove_whitename_prompt">Jesteś pewien, że usunąć ten numer?</string>
   <string name="remove_from_whitelist">Numer zostanie usunięty z białej listy połączeń</string>
   <string name="exist_user">Numer istnieje na białej liście!</string>
+  <string name="disturb_white_title">Biała lista</string>
   <string name="yes">Tak</string>
   <string name="no">Nie</string>
   <string name="create">Utwórz</string>
@@ -940,7 +943,7 @@ Allow this for all apps that want to scan?"</string>
 "
     <li>Other user data</li>
   </string>
-  <string name="master_clear_desc_erase_external_storage">.<b>SD card</b> needs to be erased.</string>
+  <string name="master_clear_desc_erase_external_storage"> needs to be erased.<b>SD card</b> needs to be erased.</string>
   <string name="erase_external_storage">Wyczyść kartę SD</string>
   <string name="erase_external_storage_description">Wymaż wszystkie dane z karty SD, np. pliki muzyczne i zdjęcia.</string>
   <string name="master_clear_button_text">Resetuj telefon</string>
@@ -952,7 +955,7 @@ Allow this for all apps that want to scan?"</string>
   <string name="master_clear_confirm_title">Zresetować?</string>
   <string name="media_format_title">Wyczyść kartę SD</string>
   <string name="media_format_summary">Wymazuje wszystkie dane z karty SD</string>
-  <string name="media_format_desc"> zapisane na niej dane.<b>all</b> data on the card!</string>
+  <string name="media_format_desc"> data on the card!<b>all</b> data on the card!</string>
   <string name="media_format_button_text">Wyczyść kartę SD</string>
   <string name="media_format_final_desc">Wymazać kartę SD, usuwając wszystkie zapisane na niej pliki? Tej czynności nie można cofnąć.</string>
   <string name="media_format_final_button_text">Wymaż wszystko</string>
@@ -1126,7 +1129,9 @@ Allow this for all apps that want to scan?"</string>
   <string name="show_background_processes">Pokaż procesy z pamięci podręcznej</string>
   <string name="reset_app_preferences">Resetuj opcje aplikacji</string>
   <string name="reset_app_preferences_title">Zresetować opcje aplikacji?</string>
-  <string name="reset_app_preferences_desc">Nie utracisz żadnych danych aplikacji.<li>Disabled apps</li>"
+  <string name="reset_app_preferences_desc">"
+
+ You will not lose any app data."<li>Disabled apps</li>"
  "<li>Disabled app notifications</li>"
  "<li>Default applications for actions</li>"
  "<li>Background data restrictions for apps</li>"
@@ -1365,7 +1370,11 @@ Allow this for all apps that want to scan?"</string>
   <string name="accessibility_system_title">System</string>
   <string name="accessibility_captioning_title">Podpisy</string>
   <string name="accessibility_screen_magnification_title">Gesty powiększenia</string>
-  <string name="accessibility_screen_magnification_summary">"Można również tymczasowo powiększać, co jest pod palcem przez potrójne dotknięcie i przytrzymanie. W tym powiększeniu stanu, można przeciągnąć palcem, aby zbadać różne części ekranu. Podnieś palec, aby powrócić do poprzedniego stanu. Uwaga: Potrójne dotknięcie dla powiększenia działa wszędzie z wyjątkiem klawiatury i  paska nawigacji ".<li>
+  <string name="accessibility_screen_magnification_summary">"
+
+You can also temporarily magnify what's under your finger by triple-tapping and holding. In this magnified state, you can drag your finger to explore different parts of the screen. Lift your finger to return to your previous state.
+
+Note: Triple-tap for magnification works everywhere except the keyboard and navigation bar."<li>
       <ul>"Pan: Drag two or more fingers across the screen.
 "<li>Adjust zoom level: Pinch two or more fingers together or spread them apart.</li>
       </ul>
@@ -1706,7 +1715,7 @@ Note: Triple-tap for magnification works everywhere except the keyboard and navi
   <string name="wifi_setup_status_eap_not_supported">Protokół EAP nie jest obsługiwany.</string>
   <string name="wifi_setup_eap_not_supported">Ustawień połączenia Wi-Fi z zabezpieczeniami EAP nie można określić podczas konfiguracji. Możesz to zrobić później na ekranie Ustawienia &gt; Sieci bezprzewodowe.</string>
   <string name="wifi_setup_description_connecting">Łączenie może potrwać kilka minut…</string>
-  <string name="wifi_setup_description_connected">, aby połączyć się z inną siecią Wi-Fi.<b>Next</b>" to continue with setup.
+  <string name="wifi_setup_description_connected"> to connect to a different WLAN network.<b>Next</b>" to continue with setup.
 
 Touch "<b>Back</b> to connect to a different WLAN network.</string>
   <string name="time_zone_auto_stub">Wybierz strefę czasową</string>
@@ -2081,6 +2090,8 @@ Any user can accept updated app permissions on behalf of all other users."</stri
   <string name="auto_popup">Nie przypominaj</string>
   <string name="autopop_warning_title">Nie pokazywać następnym razem?</string>
   <string name="autopop_warning_message">Jeśli wyłączysz tę opcję to okno nie pojawi się już, gdy połączysz telefon do komputera. Możesz wrócić do tego okna klikając zgłoszenia systemu.</string>
+  <string name="select_subscription">Select Subscription</string>
+  <string name="device_additional_status">Stan karty sim</string>
   <string name="wifi_display_settings_empty_list_wifi_display_off">Aby zobaczyć urządzenia włącz bezprzewodowe wyświetlacze.</string>
   <string name="com_lenovo_lsf_app_name">UserFramework</string>
   <string name="com_lenovo_lsf_lenovouser_app_name">Lenovo ID</string>
@@ -2362,6 +2373,7 @@ Any user can accept updated app permissions on behalf of all other users."</stri
   <string name="profile_edit_weaken_summary">Automatycznie przycisz dzwonek kiedy telefon jest unoszony</string>
   <string name="smartscene_home_roadcondition">Traffic broadcast</string>
   <string name="smartscene_home_roadcondition_summary">Broadcast traffic imformation around</string>
+  <string name="volume_up_option">Funkcja klawiszy głośności</string>
   <string name="phone_info_unset">Phone Information UnSet</string>
   <string name="phone_info">Informacje o telefonie</string>
   <string name="processor_info">Processor</string>
@@ -2620,11 +2632,8 @@ Any user can accept updated app permissions on behalf of all other users."</stri
   <string name="fuse_backup_data_to_cloud_summary">Back up phone data to cloud</string>
   <string name="fuse_recovery_data_from_cloud_title">Recover data from cloud</string>
   <string name="fuse_recovery_data_from_cloud_summary">Tap to enter cloud data backup</string>
-  <string name="fuse_master_clear_desc_erase_storage">"
-
-"<b>All user data</b> (including music, pictures, and other user data) in <b>Internal Storage</b> will be erased. Please backup your data before reset phone.</string>
+  <string name="fuse_master_clear_desc_erase_storage"> will be erased. Please backup your data before reset phone.<b>All user data</b> (including music, pictures, and other user data) in <b>Internal Storage</b> will be erased. Please backup your data before reset phone.</string>
   <string name="fuse_backup_data_description">Back up Contacts, Pictures, Messages, Applications and other important data before reset your phone</string>
-  <string name="select_subscription">Select Subscription</string>
   <string name="airplane_open_confirm">Tryb samolotowy</string>
   <string name="airplane_open_confirm_message">Czy zezwolić na włączenie trybu samolotowego?</string>
   <string name="preference_status_open">Włączone</string>
@@ -2751,13 +2760,13 @@ Are you sure to enable GPS now and wait for GPS provided time?"</string>
   <string name="move_to_sdcard">Przenieś na kartę SD</string>
   <string name="move_to_phone">Przenieś na telefon</string>
   <string name="move_select">To apply the move selection?Which part of the application can not be moved to the default sd card</string>
-  <string name="move_select_short">To apply the move selection?</string>
+  <string name="move_select_short">Przenieść?</string>
   <string name="clear_cache">Wyczyść całą pamięć podręczną</string>
   <string name="clear_cache_msg">Zakończono czyszczenie ,zwolniono %1$s pamięci.</string>
-  <string name="soft_permission">Rights management</string>
+  <string name="soft_permission">Zarządzanie prawami</string>
   <string name="default_soft_setting">Domyślne ustawienia oprogramowania</string>
   <string name="install_local">Miejsce instalacji oprogramowania</string>
-  <string name="choose_soft_place">Please select the software installation location</string>
+  <string name="choose_soft_place">Proszę wybrać lokalizację instalacji oprogramowania</string>
   <string name="move_success">Move is complete! Part of the app can not be moved to the default sd card,%1$s app move success！</string>
   <string name="move_tomemory_success">Move is completed! %1$s app move success！</string>
   <string name="internal_storage_app">Pamięć wewnętrzna aplikacji</string>
@@ -2800,6 +2809,8 @@ Are you sure to enable GPS now and wait for GPS provided time?"</string>
   <string name="night_mode_notification_title">Nocna ochrona oczu włączona</string>
   <string name="night_mode_notification_text">Kliknij aby zamknąć nocną ochronę oczu</string>
   <string name="night_mode_tip_secure_button">Please closing eye protection to clicking button</string>
+  <string name="lenovo_cloud">SYNCit</string>
+  <string name="power_settings">Menadżer zasilania</string>
   <string name="usb_ums_title">Pamięć USB</string>
   <string name="usb_ums_summary">Zalecany XP. Pozwoli ci transferować pliki pomiędzy komputerem i Twoim urządzeniem Android.</string>
   <string name="usb_charge_title">Tylko ładowanie</string>
@@ -2985,11 +2996,6 @@ Are you sure to enable GPS now and wait for GPS provided time?"</string>
   <string name="sim_enter_pin_hints">(Wprowadź 4-8 cyfr)</string>
   <string name="ims_toggle_title">IMS</string>
   <string name="ims_toggle_summary">Providing IP Multimedia Subsystem services</string>
-  <item name="APKTOOL_DUMMY_07e3" type="string">false</item>
-  <item name="APKTOOL_DUMMY_07e4" type="string">false</item>
-  <item name="APKTOOL_DUMMY_07e5" type="string">false</item>
-  <item name="APKTOOL_DUMMY_07e6" type="string">false</item>
-  <item name="APKTOOL_DUMMY_07e7" type="string">false</item>
   <item name="APKTOOL_DUMMY_07e8" type="string">false</item>
   <item name="APKTOOL_DUMMY_07e9" type="string">false</item>
   <item name="APKTOOL_DUMMY_07ea" type="string">false</item>
@@ -3005,4 +3011,9 @@ Are you sure to enable GPS now and wait for GPS provided time?"</string>
   <item name="APKTOOL_DUMMY_07f4" type="string">false</item>
   <item name="APKTOOL_DUMMY_07f5" type="string">false</item>
   <item name="APKTOOL_DUMMY_07f6" type="string">false</item>
+  <item name="APKTOOL_DUMMY_07f7" type="string">false</item>
+  <item name="APKTOOL_DUMMY_07f8" type="string">false</item>
+  <item name="APKTOOL_DUMMY_07f9" type="string">false</item>
+  <item name="APKTOOL_DUMMY_07fa" type="string">false</item>
+  <item name="APKTOOL_DUMMY_07fb" type="string">false</item>
 </resources>

@@ -30,13 +30,23 @@
   <string name="widget_default_package_name"/>
   <string name="widget_default_class_name"/>
   <string name="default_wallpaper_component">@null</string>
+  <string name="config_networkLocationProviderPackageName">@null</string>
+  <string name="config_fusedLocationProviderPackageName">com.android.location.fused</string>
+  <string name="config_geocoderProviderPackageName">@null</string>
+  <string name="config_geofenceProviderPackageName">@null</string>
   <string name="config_datause_iface">rmnet0</string>
+  <string name="default_sms_application">com.lenovo.ideafriend</string>
   <string name="config_default_dns_server">8.8.8.8</string>
+  <string name="mobile_provisioning_apn"/>
+  <string name="mobile_provisioning_url"/>
+  <string name="mobile_redirected_provisioning_url">http://google.com</string>
   <string name="gsm_alphabet_default_charset"/>
   <string name="db_default_journal_mode">PERSIST</string>
   <string name="db_default_sync_mode">FULL</string>
   <string name="db_wal_sync_mode">FULL</string>
   <string name="config_useragentprofile_url"/>
+  <string name="config_mms_user_agent">Android-Mms/0.1</string>
+  <string name="config_mms_user_agent_profile_url">http://www.google.com/oha/rdf/ua-profile-kila.xml</string>
   <string name="config_isoImagePath"/>
   <string name="config_ntpServer">asia.pool.ntp.org</string>
   <string name="config_wimaxServiceJarLocation"/>
@@ -45,69 +55,23 @@
   <string name="config_wimaxServiceClassname"/>
   <string name="config_wimaxStateTrackerClassname"/>
   <string name="config_dreamsDefaultComponent">com.android.deskclock/com.android.deskclock.Screensaver</string>
-  <string name="hour_minute_24" formatted="false">%-k:%M</string>
-  <string name="hour_minute_ampm" formatted="false">%-l:%M %p</string>
-  <string name="hour_minute_cap_ampm" formatted="false">%-l:%M %^p</string>
-  <string name="twelve_hour_time_format">h:mm a</string>
-  <string name="twenty_four_hour_time_format">H:mm</string>
-  <string name="numeric_date" formatted="false">%d.%m.%Y</string>
-  <string name="numeric_date_format">dd.MM.yyyy</string>
+  <string name="config_chooseAccountActivity">android/android.accounts.ChooseAccountActivity</string>
+  <string name="config_chooseTypeAndAccountActivity">android/android.accounts.ChooseTypeAndAccountActivity</string>
+  <string name="config_customResolverActivity"/>
+  <string name="config_appsAuthorizedForSharedAccounts">;com.android.settings;</string>
   <string name="numeric_date_template" formatted="false">%s.%s.%s</string>
   <string name="month_day_year" formatted="false">%-e %B %Y</string>
   <string name="time_of_day" formatted="false">%H:%M:%S</string>
   <string name="date_and_time" formatted="false">%d.%m.%Y %H:%M:%S</string>
   <string name="date_time">%1$s %2$s</string>
-  <string name="time_date">%1$s %3$s</string>
-  <string name="abbrev_month_day_year" formatted="false">%d.%m.%Y</string>
-  <string name="month_day" formatted="false">%-e %B</string>
-  <string name="month">%-B</string>
-  <string name="month_year" formatted="false">%-B %Y</string>
-  <string name="abbrev_month_day" formatted="false">%-e %b</string>
-  <string name="abbrev_month">%-b</string>
-  <string name="abbrev_month_year" formatted="false">%b %Y</string>
-  <string name="time1_time2">%1$s-%2$s</string>
-  <string name="date1_date2">%2$s-%5$s</string>
-  <string name="numeric_md1_md2">%3$s.%2$s-%8$s.%7$s</string>
-  <string name="numeric_wday1_md1_wday2_md2">%1$s, %3$s.%2$s-%6$s, %8$s.%7$s</string>
-  <string name="numeric_mdy1_mdy2">%3$s.%2$s.%4$s-%8$s.%7$s.%9$s</string>
-  <string name="numeric_wday1_mdy1_wday2_mdy2">%1$s, %3$s.%2$s.%4$s-%6$s, %8$s.%7$s.%9$s</string>
-  <string name="numeric_wday1_mdy1_time1_wday2_mdy2_time2">%1$s, %3$s.%2$s.%4$s %5$s-%6$s, %8$s.%7$s.%9$s %10$s</string>
-  <string name="numeric_md1_time1_md2_time2">%3$s.%2$s %5$s-%8$s.%7$s %10$s</string>
-  <string name="numeric_wday1_md1_time1_wday2_md2_time2">%1$s, %3$s.%2$s %5$s-%6$s, %8$s.%7$s %10$s</string>
-  <string name="numeric_mdy1_time1_mdy2_time2">%3$s.%2$s.%4$s %5$s-%8$s.%7$s.%9$s %10$s</string>
-  <string name="wday1_date1_time1_wday2_date2_time2">%1$s, %2$s %3$s-%4$s, %5$s %6$s</string>
-  <string name="wday1_date1_wday2_date2">%1$s, %2$s-%4$s, %5$s</string>
-  <string name="date1_time1_date2_time2">%2$s %3$s-%5$s %6$s</string>
-  <string name="time_wday_date">%1$s %2$s, %3$s</string>
-  <string name="wday_date">%2$s, %3$s</string>
-  <string name="time_wday">%1$s %2$s</string>
-  <string name="same_year_md1_md2">%3$s %2$s-%8$s %7$s</string>
-  <string name="same_year_wday1_md1_wday2_md2">%1$s, %3$s %2$s-%6$s, %8$s %7$s</string>
-  <string name="same_year_md1_time1_md2_time2">%3$s %2$s %5$s-%8$s %7$s %10$s</string>
-  <string name="same_month_md1_time1_md2_time2">%3$s %2$s %5$s-%8$s %7$s %10$s</string>
-  <string name="same_year_wday1_md1_time1_wday2_md2_time2">%1$s, %3$s %2$s %5$s-%6$s, %8$s %7$s %10$s</string>
-  <string name="same_month_wday1_md1_time1_wday2_md2_time2">%1$s, %3$s %2$s %5$s-%6$s, %8$s %7$s %10$s</string>
-  <string name="same_year_mdy1_time1_mdy2_time2">%3$s %2$s %4$s %5$s-%8$s %7$s %9$s %10$s</string>
-  <string name="same_month_mdy1_time1_mdy2_time2">%3$s %2$s %4$s %5$s-%8$s %7$s %9$s %10$s</string>
-  <string name="same_year_wday1_mdy1_time1_wday2_mdy2_time2">%1$s, %3$s %2$s %4$s %5$s-%6$s, %8$s %7$s %9$s %10$s</string>
-  <string name="same_month_wday1_mdy1_time1_wday2_mdy2_time2">%1$s, %3$s %2$s %4$s %5$s-%6$s, %8$s %7$s %9$s %10$s</string>
-  <string name="same_month_wday1_mdy1_wday2_mdy2">%1$s, %3$s %2$s %4$s-%6$s, %8$s %7$s %9$s</string>
-  <string name="same_month_md1_md2">%3$s-%8$s %2$s</string>
-  <string name="same_month_wday1_md1_wday2_md2">%1$s, %3$s %2$s-%6$s, %8$s %7$s</string>
-  <string name="same_year_mdy1_mdy2">%3$s %2$s-%8$s %7$s %9$s</string>
-  <string name="same_month_mdy1_mdy2">%3$s-%8$s %2$s %9$s</string>
-  <string name="same_year_wday1_mdy1_wday2_mdy2">%1$s, %3$s %2$s-%6$s, %8$s %7$s %9$s</string>
-  <string name="short_format_month">%b</string>
-  <string name="full_wday_month_day_no_year">EEEE, d MMMM</string>
-  <string name="abbrev_wday_month_day_no_year">EEE, d MMMM</string>
-  <string name="abbrev_wday_month_day_year">EEE, d MMM yyyy</string>
   <string name="common_name_prefixes"/>
   <string name="common_name_suffixes"/>
   <string name="common_last_name_prefixes"/>
   <string name="common_name_conjunctions"/>
   <string name="default_text_encoding">Latin-1</string>
   <string name="lock_pattern_view_aspect">square</string>
-  <string name="time_picker_separator">:</string>
+  <string name="icu_abbrev_wday_month_day_no_year">eeeMMMMd</string>
+  <string name="system_ui_date_pattern">@string/icu_abbrev_wday_month_day_no_year</string>
   <string name="byteShort">B</string>
   <string name="kilobyteShort">KB</string>
   <string name="megabyteShort">MB</string>
@@ -133,8 +97,9 @@
   <string name="invalidPuk">Wpisz kod PUK składający się z co najmniej 8 cyfr.</string>
   <string name="needPuk">Karta SIM jest zablokowana kodem PUK. Wprowadź kod PUK, aby odblokować kartę.</string>
   <string name="needPuk2">Wprowadź kod PUK2, aby odblokować kartę SIM.</string>
+  <string name="enablePin">Unsuccessful, enable SIM/RUIM Lock.</string>
   <string name="imei">IMEI</string>
-  <string name="meid">MEID</string>
+  <string name="meid">Numer MEID</string>
   <string name="ClipMmi">Identyfikator rozmówcy przy połączeniach przychodzących</string>
   <string name="ClirMmi">Identyfikator rozmówcy przy połączeniach wychodzących</string>
   <string name="CfMmi">Przekazywanie połączeń</string>
@@ -211,6 +176,9 @@
   <string name="contentServiceSyncNotificationTitle">Synchronizuj</string>
   <string name="contentServiceTooManyDeletesNotificationDesc">Zbyt wiele usuwanych %s.</string>
   <string name="low_memory">Pamięć telefonu jest pełna. Usuń niektóre pliki, aby zwolnić miejsce.</string>
+  <string name="ssl_ca_cert_warning">Network may be monitored</string>
+  <string name="ssl_ca_cert_noti_by_unknown">By an unknown third party</string>
+  <string name="ssl_ca_cert_noti_managed">By %s</string>
   <string name="me">Ja</string>
   <string name="power_dialog">Opcje telefonu</string>
   <string name="silent_mode">Tryb cichy</string>
@@ -276,6 +244,8 @@
   <string name="permgroupdesc_microphone">Bezpośredni dostęp do mikrofonu, aby nagrać dźwięk.</string>
   <string name="permgrouplab_camera">Kamera</string>
   <string name="permgroupdesc_camera">Bezpośredni dostęp do kamery dla obrazu lub nagrywania wideo.</string>
+  <string name="permgrouplab_screenlock">Lock screen</string>
+  <string name="permgroupdesc_screenlock">Ability to affect behavior of the lock screen on your device.</string>
   <string name="permgrouplab_appInfo">Twoje dane aplikacji</string>
   <string name="permgroupdesc_appInfo">Umiejętność wpływania na zachowanie innych aplikacji w urządzeniu.</string>
   <string name="permgrouplab_wallpaper">Tapeta</string>
@@ -300,12 +270,26 @@
   <string name="permgroupdesc_display">Effect the UI of other applications.</string>
   <string name="permgrouplab_storage">Pamięć</string>
   <string name="permgroupdesc_storage">Dostęp do karty SD.</string>
+  <string name="permgrouplab_accessibilityFeatures">Accessibility features</string>
+  <string name="permgroupdesc_accessibilityFeatures">Features that assistive technology can request.</string>
+  <string name="capability_title_canRetrieveWindowContent">Retrieve window content</string>
+  <string name="capability_desc_canRetrieveWindowContent">"Inspect the content of a window you're interacting with."</string>
+  <string name="capability_title_canRequestTouchExploration">Turn on Explore by Touch</string>
+  <string name="capability_desc_canRequestTouchExploration">Touched items will be spoken aloud and the screen can be explored using gestures.</string>
+  <string name="capability_title_canRequestEnhancedWebAccessibility">Turn on enhanced web accessibility</string>
+  <string name="capability_desc_canRequestEnhancedWebAccessibility">Scripts may be installed to make app content more accessible.</string>
+  <string name="capability_title_canRequestFilterKeyEvents">Observe text you type</string>
+  <string name="capability_desc_canRequestFilterKeyEvents">Includes personal data such as credit card numbers and passwords.</string>
   <string name="permlab_statusBar">wyłączanie lub zmienianie paska stanu</string>
   <string name="permdesc_statusBar">Pozwala aplikacji na wyłączanie paska stanu oraz dodawanie i usuwanie ikon systemowych.</string>
   <string name="permlab_statusBarService">pasek stanu</string>
   <string name="permdesc_statusBarService">Pozwala aplikacji na występowanie na pasku stanu.</string>
   <string name="permlab_expandStatusBar">rozwijanie/zwijanie paska stanu</string>
   <string name="permdesc_expandStatusBar">Pozwala aplikacji na rozwijanie lub zwijanie paska stanu.</string>
+  <string name="permlab_install_shortcut">install shortcuts</string>
+  <string name="permdesc_install_shortcut">Allows an application to add Homescreen shortcuts without user intervention.</string>
+  <string name="permlab_uninstall_shortcut">uninstall shortcuts</string>
+  <string name="permdesc_uninstall_shortcut">Allows the application to remove Homescreen shortcuts without user intervention.</string>
   <string name="permlab_processOutgoingCalls">przekierowywanie połączeń wychodzących</string>
   <string name="permdesc_processOutgoingCalls">Pozwala aplikacji na przetwarzanie połączeń wychodzących i zmianę wybieranego numeru. Aplikacje z tym uprawnieniem mogą monitorować, przekierowywać lub blokować połączenia wychodzące.</string>
   <string name="permlab_receiveSms">odbieranie wiadomości tekstowych (SMS)</string>
@@ -318,8 +302,8 @@
   <string name="permdesc_readCellBroadcasts">Zezwala aplikacji na odczyt wiadomości z sieci komórkowej odebranych na urządzeniu. Alerty sieci komórkowej są dostarczane w niektórych lokalizacjach w celu ostrzeżenia Cię o sytuacjach alarmowych. Złośliwe aplikacje mogą wpływać na wydajność lub zakłócać działanie urządzenia po odebraniu wiadomości alarmowej z sieci komórkowej.</string>
   <string name="permlab_sendSms">wysyłanie wiadomości SMS</string>
   <string name="permdesc_sendSms">Pozwala aplikacji na wysyłanie SMS-ów. Może to skutkować nieoczekiwanymi opłatami. Złośliwe aplikacje mogą generować koszty, wysyłając wiadomości bez Twojego potwierdzenia.</string>
-  <string name="permlab_sendSmsNoConfirmation">wysyłanie wiadomości SMS bez potwierdzenia</string>
-  <string name="permdesc_sendSmsNoConfirmation">Pozwala aplikacji na wysyłanie SMS-ów. Może to skutkować nieoczekiwanymi opłatami. Złośliwe aplikacje mogą generować koszty, wysyłając wiadomości bez Twojego potwierdzenia.</string>
+  <string name="permlab_sendRespondViaMessageRequest">send respond-via-message events</string>
+  <string name="permdesc_sendRespondViaMessageRequest">Allows the app to send requests to other messaging apps to handle respond-via-message events for incoming calls.</string>
   <string name="permlab_readSms">odczytywanie wiadomości tekstowych (SMS i MMS)</string>
   <string name="permdesc_readSms">Pozwala aplikacji na odczyt SMS-ów zapisanych na telefonie lub na karcie SIM. Aplikacja z tym uprawnieniem może czytać wszystkie SMS-y niezależnie od ich treści lub poufności.</string>
   <string name="permlab_writeSms">edytowanie wiadomości tekstowych (SMS i MMS)</string>
@@ -340,6 +324,8 @@
   <string name="permdesc_reorderTasks">Pozwala aplikacji na przenoszenie zadań między tłem a pierwszym planem. Aplikacja może to robić bez Twojego udziału.</string>
   <string name="permlab_removeTasks">zatrzymywanie uruchomionych aplikacji</string>
   <string name="permdesc_removeTasks">Umożliwia aplikacji usuwanie zadań i kończenie powiązanych z nimi aplikacji. Złośliwe aplikacje mogą zakłócić działanie innych aplikacji.</string>
+  <string name="permlab_manageActivityStacks">manage activity stacks</string>
+  <string name="permdesc_manageActivityStacks">Allows the app to add, remove, and modify the activity stacks in which other apps run. Malicious apps may disrupt the behavior of other apps.</string>
   <string name="permlab_startAnyActivity">rozpoczynanie dowolnej czynności</string>
   <string name="permdesc_startAnyActivity">Zezwala aplikacji na rozpoczynanie dowolnej czynności niezależnie od ochrony uprawnień lub stanu eksportu.</string>
   <string name="permlab_setScreenCompatibility">ustaw zgodność ekranu</string>
@@ -372,6 +358,8 @@
   <string name="permdesc_shutdown">Przełącza menedżera aktywności w stan wyłączenia. Nie wykonuje pełnego wyłączenia.</string>
   <string name="permlab_stopAppSwitches">zapobieganie przełączaniu aplikacji</string>
   <string name="permdesc_stopAppSwitches">Uniemożliwia użytkownikowi przełączenie na inną aplikację.</string>
+  <string name="permlab_getTopActivityInfo">get current app info</string>
+  <string name="permdesc_getTopActivityInfo">Allows the holder to retrieve private information about the current application in the foreground of the screen.</string>
   <string name="permlab_runSetActivityWatcher">monitorowanie i kontrolowanie wszystkich uruchamianych aplikacji</string>
   <string name="permdesc_runSetActivityWatcher">Pozwala aplikacji na monitorowanie i kontrolowanie sposobu uruchamiania działań przez system. Złośliwe aplikacje mogą całkowicie naruszyć zabezpieczenia systemu. To uprawnienie nigdy nie jest potrzebne podczas normalnego użytkowania, a jedynie podczas programowania.</string>
   <string name="permlab_broadcastPackageRemoved">wysyłanie transmisji informującej o usuniętym pakiecie</string>
@@ -388,6 +376,10 @@
   <string name="permdesc_batteryStats">Pozwala aplikacji na modyfikowanie zebranych statystyk dotyczących baterii. Nieprzeznaczone dla zwykłych aplikacji.</string>
   <string name="permlab_updateBatteryStats">modify battery statistics</string>
   <string name="permdesc_updateBatteryStats">Allows the app to modify collected battery statistics. Not for use by normal apps.</string>
+  <string name="permlab_getAppOpsStats">retrieve app ops statistics</string>
+  <string name="permdesc_getAppOpsStats">Allows the app to retrieve collected application operation statistics. Not for use by normal apps.</string>
+  <string name="permlab_updateAppOpsStats">modify app ops statistics</string>
+  <string name="permdesc_updateAppOpsStats">Allows the app to modify collected application operation statistics. Not for use by normal apps.</string>
   <string name="permlab_backup">kontrolowanie tworzenia i przywracania kopii zapasowych systemu</string>
   <string name="permdesc_backup">Pozwala aplikacji na sterowanie mechanizmem tworzenia kopii zapasowych systemu i ich przywracania. Nieprzeznaczone dla zwykłych aplikacji.</string>
   <string name="permlab_confirm_full_backup">Potwierdzenie operacji utworzenia pełnej kopii zapasowej lub przywracania</string>
@@ -410,16 +402,26 @@
   <string name="permdesc_bindInputMethod">Pozwala na powiązanie wybranego sposobu wprowadzania tekstu z interfejsem najwyższego poziomu. To uprawnienie nie powinno być nigdy wymagane przez zwykłe aplikacje.</string>
   <string name="permlab_bindAccessibilityService">tworzenie powiązania z usługą ułatwień dostępu</string>
   <string name="permdesc_bindAccessibilityService">Zezwala na tworzenie powiązania z interfejsem najwyższego poziomu usługi ułatwień dostępu. Nieprzeznaczone dla zwykłych aplikacji.</string>
+  <string name="permlab_bindPrintService">bind to a print service</string>
+  <string name="permdesc_bindPrintService">Allows the holder to bind to the top-level interface of a print service. Should never be needed for normal apps.</string>
+  <string name="permlab_bindPrintSpoolerService">bind to a print spooler service</string>
+  <string name="permdesc_bindPrintSpoolerService">Allows the holder to bind to the top-level interface of a print spooler service. Should never be needed for normal apps.</string>
+  <string name="permlab_bindNfcService">bind to NFC service</string>
+  <string name="permdesc_bindNfcService">Allows the holder to bind to applications that are emulating NFC cards. Should never be needed for normal apps.</string>
   <string name="permlab_bindTextService">tworzenie powiązania z usługą tekstową</string>
   <string name="permdesc_bindTextService">Pozwala na tworzenie powiązania z interfejsem najwyższego poziomu usługi tekstowej (np. SpellCheckerService). Nie powinno być nigdy potrzebne w przypadku zwykłych aplikacji.</string>
   <string name="permlab_bindVpnService">tworzenie powiązania z usługą VPN</string>
   <string name="permdesc_bindVpnService">Pozwala na tworzenie powiązania z interfejsem najwyższego poziomu usługi VPN. Nie powinno być nigdy potrzebne w przypadku zwykłych aplikacji.</string>
   <string name="permlab_bindWallpaper">powiązanie z tapetą</string>
   <string name="permdesc_bindWallpaper">Pozwala na tworzenie powiązania z interfejsem najwyższego poziomu tapety. Nieprzeznaczone dla zwykłych aplikacji.</string>
+  <string name="permlab_bindRemoteDisplay">bind to a remote display</string>
+  <string name="permdesc_bindRemoteDisplay">Allows the holder to bind to the top-level interface of a remote display. Should never be needed for normal apps.</string>
   <string name="permlab_bindRemoteViews">powiązanie z usługą widżetów</string>
   <string name="permdesc_bindRemoteViews">Zezwala na tworzenie powiązania z interfejsem najwyższego poziomu usługi widżetów. Nie powinno być nigdy potrzebne w przypadku zwykłych aplikacji.</string>
   <string name="permlab_bindDeviceAdmin">interakcja z administratorem urządzenia</string>
   <string name="permdesc_bindDeviceAdmin">Zezwala na wysyłanie intencji do administratora urządzenia. Nie powinno być nigdy potrzebne w przypadku zwykłych aplikacji.</string>
+  <string name="permlab_manageDeviceAdmins">add or remove a device admin</string>
+  <string name="permdesc_manageDeviceAdmins">Allows the holder to add or remove active device administrators. Should never be needed for normal apps.</string>
   <string name="permlab_setOrientation">zmienianie orientacji ekranu</string>
   <string name="permdesc_setOrientation">Pozwala aplikacji na zmianę obrotu ekranu w dowolnym momencie. To uprawnienie nie powinno być potrzebne zwykłym aplikacjom.</string>
   <string name="permlab_setPointerSpeed">zmiana szybkości wskaźnika</string>
@@ -448,6 +450,8 @@
   <string name="permdesc_readLogs">Pozwala aplikacji na odczyt różnych plików dzienników systemowych. Dzięki temu może ona poznać ogólne informacje na temat korzystania z telefonu, co potencjalnie może obejmować również informacje prywatne lub osobiste.</string>
   <string name="permlab_anyCodecForPlayback">użycie dowolnego dekodera multimediów w celu odtwarzania</string>
   <string name="permdesc_anyCodecForPlayback">Pozwala aplikacji na użycie dowolnego zainstalowanego dekodera multimediów do odtwarzania.</string>
+  <string name="permlab_manageCaCertificates">manage trusted credentials</string>
+  <string name="permdesc_manageCaCertificates">Allows the app to install and uninstall CA certificates as trusted credentials.</string>
   <string name="permlab_diagnostic">czytanie/zapisywanie w zasobach należących do diagnostyki</string>
   <string name="permdesc_diagnostic">Pozwala aplikacji na czytanie i zapisywanie wszystkich zasobów należących do grupy diagnostyki, na przykład plików w katalogu /dev. Może to potencjalnie wpłynąć na stabilność i bezpieczeństwo systemu. Powinno być wykorzystywane WYŁĄCZNIE do diagnozowania sprzętu przez producenta lub operatora.</string>
   <string name="permlab_changeComponentState">włączanie lub wyłączanie składników aplikacji</string>
@@ -504,12 +508,24 @@
   <string name="permdesc_configureWifiDisplay">Allows the app to configure and connect to WLAN displays.</string>
   <string name="permlab_controlWifiDisplay">control WLAN displays</string>
   <string name="permdesc_controlWifiDisplay">Allows the app to control low-level features of WLAN displays.</string>
+  <string name="permlab_captureAudioOutput">capture audio output</string>
+  <string name="permdesc_captureAudioOutput">Allows the app to capture and redirect audio output.</string>
+  <string name="permlab_captureAudioHotword">Hotword detection</string>
+  <string name="permdesc_captureAudioHotword">Allows the app to capture audio for Hotword detection. The capture can happen in the background but does not prevent other audio capture (e.g. Camcorder).</string>
+  <string name="permlab_captureVideoOutput">capture video output</string>
+  <string name="permdesc_captureVideoOutput">Allows the app to capture and redirect video output.</string>
+  <string name="permlab_captureSecureVideoOutput">capture secure video output</string>
+  <string name="permdesc_captureSecureVideoOutput">Allows the app to capture and redirect secure video output.</string>
+  <string name="permlab_mediaContentControl">control media playback and metadata access</string>
+  <string name="permdesc_mediaContentControl">Allows the app to control media playback and access the media information (title, author...).</string>
   <string name="permlab_modifyAudioSettings">zmienianie ustawień audio</string>
   <string name="permdesc_modifyAudioSettings">Pozwala aplikacji na modyfikowanie globalnych ustawień dźwięku, takich jak głośność oraz urządzenie wyjściowe.</string>
   <string name="permlab_recordAudio">nagrywanie dźwięku</string>
   <string name="permdesc_recordAudio">Pozwala aplikacji na nagrywanie dźwięku przez mikrofon. Aplikacja z tym uprawnieniem może nagrywać dźwięk w dowolnym momencie bez Twojego potwierdzenia.</string>
   <string name="permlab_camera">wykonywanie zdjęć i filmów wideo</string>
   <string name="permdesc_camera">Pozwala aplikacji na robienie zdjęć i nagrywanie filmów przy użyciu aparatu. Aplikacja z tym uprawnieniem może użyć aparatu w dowolnym momencie bez Twojego potwierdzenia.</string>
+  <string name="permlab_cameraDisableTransmitLed">disable transmit indicator LED when camera is in use</string>
+  <string name="permdesc_cameraDisableTransmitLed">Allows a pre-installed system application to disable the camera use indicator LED.</string>
   <string name="permlab_brick">wyłączenie telefonu na stałe</string>
   <string name="permdesc_brick">Pozwala aplikacji na całkowite i trwałe wyłączenie telefonu. To bardzo niebezpieczne.</string>
   <string name="permlab_reboot">wymuszanie ponownego uruchomienia telefonu</string>
@@ -556,6 +572,8 @@
   <string name="permdesc_readPhoneState">Pozwala aplikacji na dostęp do funkcji telefonicznych urządzenia. Aplikacja z tym uprawnieniem może odczytać numer telefonu i identyfikator urządzenia, sprawdzić, czy połączenie jest aktywne, oraz poznać numer, z którym jest nawiązane połączenie.</string>
   <string name="permlab_wakeLock">zapobieganie przejściu telefonu w stan uśpienia</string>
   <string name="permdesc_wakeLock">Pozwala aplikacji na zapobieganie przechodzeniu telefonu w tryb uśpienia.</string>
+  <string name="permlab_transmitIr">transmit infrared</string>
+  <string name="permdesc_transmitIr">"Allows the app to use the phone's infrared transmitter."</string>
   <string name="permlab_devicePower">włączanie lub wyłączanie telefonu</string>
   <string name="permdesc_devicePower">Pozwala aplikacji na włączanie i wyłączanie telefonu.</string>
   <string name="permlab_factoryTest">uruchamianie w trybie testu fabrycznego</string>
@@ -600,6 +618,8 @@
   <string name="permdesc_changeWifiMulticastState">Pozwala aplikacji na odbieranie pakietów wysyłanych przez sieć Wi-Fi do wszystkich urządzeń, a nie tylko do Twojego telefonu, przy użyciu adresów połączeń grupowych. Powoduje większe zapotrzebowanie na energię niż w trybie innym niż grupowy.</string>
   <string name="permlab_bluetoothAdmin">uzyskiwanie dostępu do ustawień Bluetooth</string>
   <string name="permdesc_bluetoothAdmin">Pozwala aplikacji na konfigurowanie lokalnego telefonu z funkcją Bluetooth oraz na wykrywanie urządzeń zdalnych i parowanie z nimi.</string>
+  <string name="permlab_bluetoothPriv">allow Bluetooth pairing by Application</string>
+  <string name="permdesc_bluetoothPriv">Allows the app to pair with remote devices without user interaction.</string>
   <string name="permlab_accessWimaxState">Wyświetl połączenia WiMAX</string>
   <string name="permdesc_accessWimaxState">Pozawala aplikacji określić, czy obsługa WiMAX jest włączona, oraz uzyskać informacje o wszystkich podłączonych sieciach WiMAX.</string>
   <string name="permlab_changeWimaxState">Zmień stan WiMAX</string>
@@ -630,18 +650,32 @@
   <string name="permdesc_sdcardWrite">Pozwala aplikacji na zapis na karcie SD.</string>
   <string name="permlab_mediaStorageWrite">modyfikowanie/usuwanie zawartości pamięci wew.</string>
   <string name="permdesc_mediaStorageWrite">Pozwala aplikacji na modyfikowanie zawartości pamięci wewnętrznej.</string>
+  <string name="permlab_manageDocs">manage document storage</string>
+  <string name="permdesc_manageDocs">Allows the app to manage document storage.</string>
   <string name="permlab_sdcardAccessAll">access external storage of all users</string>
   <string name="permdesc_sdcardAccessAll">Allows the app to access external storage for all users.</string>
   <string name="permlab_cache_filesystem">dostęp do systemu plików pamięci podręcznej</string>
   <string name="permdesc_cache_filesystem">Pozwala aplikacji na odczyt i zapis w systemie plików pamięci podręcznej.</string>
   <string name="permlab_use_sip">nawiązywanie/odbieranie połączeń przez internet</string>
   <string name="permdesc_use_sip">Pozwala aplikacji na korzystanie z usługi SIP do nawiązywania/odbierania połączeń przez internet.</string>
+  <string name="permlab_bind_call_service">interact with in-call screen</string>
+  <string name="permdesc_bind_call_service">Allows the app to control when and how the user sees the in-call screen.</string>
   <string name="permlab_readNetworkUsageHistory">odczyt historii wykorzystania sieci</string>
   <string name="permdesc_readNetworkUsageHistory">Pozwala aplikacji na odczyt historii wykorzystania określonych sieci przez poszczególne aplikacje.</string>
   <string name="permlab_manageNetworkPolicy">zarządzanie zasadami dotyczącymi sieci</string>
   <string name="permdesc_manageNetworkPolicy">Pozwala aplikacji na zarządzanie zasadami dotyczącymi sieci i definiowanie reguł aplikacji.</string>
   <string name="permlab_modifyNetworkAccounting">modyfikowanie sposobu naliczania użycia sieci</string>
   <string name="permdesc_modifyNetworkAccounting">Pozwala aplikacji na zmienianie sposobu rozliczania wykorzystania sieci przez aplikacje. Nieprzeznaczone dla zwykłych aplikacji.</string>
+  <string name="permlab_markNetworkSocket">modify socket marks</string>
+  <string name="permdesc_markNetworkSocket">Allows the app to modify socket marks for routing</string>
+  <string name="permlab_accessNotifications">access notifications</string>
+  <string name="permdesc_accessNotifications">Allows the app to retrieve, examine, and clear notifications, including those posted by other apps.</string>
+  <string name="permlab_bindNotificationListenerService">bind to a notification listener service</string>
+  <string name="permdesc_bindNotificationListenerService">Allows the holder to bind to the top-level interface of a notification listener service. Should never be needed for normal apps.</string>
+  <string name="permlab_invokeCarrierSetup">invoke the carrier-provided configuration app</string>
+  <string name="permdesc_invokeCarrierSetup">Allows the holder to invoke the carrier-provided configuration app. Should never be needed for normal apps.</string>
+  <string name="permlab_accessNetworkConditions">listen for observations on network conditions</string>
+  <string name="permdesc_accessNetworkConditions">Allows an application to listen for observations on network conditions. Should never be needed for normal apps.</string>
   <string name="policylab_limitPassword">Określ reguły hasła</string>
   <string name="policydesc_limitPassword">Kontrolowanie długości haseł odblokowania ekranu i dozwolonych w nich znaków</string>
   <string name="policylab_watchLogin">Monitoruj próby odblokowania ekranu</string>
@@ -745,6 +779,8 @@
   <string name="keyguard_label_text">Aby odblokować, naciśnij Menu, a następnie 0.</string>
   <string name="emergency_call_dialog_number_for_display">Numer alarmowy</string>
   <string name="lockscreen_carrier_default">Brak usługi</string>
+  <string name="operator_name_china_mobile">China Mobile</string>
+  <string name="operator_name_china_unicom">China Unicom</string>
   <string name="lockscreen_screen_locked">Ekran zablokowany.</string>
   <string name="lockscreen_instructions_when_pattern_enabled">Naciśnij Menu, aby odblokować lub wykonać połączenie alarmowe.</string>
   <string name="lockscreen_instructions_when_pattern_disabled">Naciśnij Menu, aby odblokować.</string>
@@ -800,8 +836,7 @@ Spróbuj ponownie za %d s."</string>
   <string name="lockscreen_glogin_password_hint">Hasło</string>
   <string name="lockscreen_glogin_submit_button">Zaloguj się</string>
   <string name="lockscreen_glogin_invalid_input">Błędna nazwa użytkownika lub hasło.</string>
-  <string name="lockscreen_glogin_account_recovery_hint">"Forgot your username or password?
-Visit "<b>google.com/accounts/recovery</b>.</string>
+  <string name="lockscreen_glogin_account_recovery_hint">.<b>google.com/accounts/recovery</b>.</string>
   <string name="lockscreen_glogin_checking_password">Sprawdzanie…</string>
   <string name="lockscreen_unlock_label">Odblokuj</string>
   <string name="lockscreen_sound_on_label">Włącz dźwięk</string>
@@ -810,6 +845,7 @@ Visit "<b>google.com/accounts/recovery</b>.</string>
   <string name="lockscreen_access_pattern_cleared">Wzór wyczyszczony</string>
   <string name="lockscreen_access_pattern_cell_added">Dodano komórkę.</string>
   <string name="lockscreen_access_pattern_detected">Wzór ukończony</string>
+  <string name="keyguard_accessibility_widget_changed">%1$s. Widget %2$d of %3$d.</string>
   <string name="keyguard_accessibility_add_widget">Add widget.</string>
   <string name="keyguard_accessibility_widget_empty_slot">Empty</string>
   <string name="keyguard_accessibility_unlock_area_expanded">Unlock area expanded.</string>
@@ -847,6 +883,9 @@ Visit "<b>google.com/accounts/recovery</b>.</string>
   <string name="web_user_agent_target_content">"Mobile "</string>
   <string name="js_dialog_title">Komunikat ze strony pod adresem „%s”:</string>
   <string name="js_dialog_title_default">JavaScript</string>
+  <string name="js_dialog_before_unload_title">Confirm Navigation</string>
+  <string name="js_dialog_before_unload_positive_button">Leave this Page</string>
+  <string name="js_dialog_before_unload_negative_button">Stay on this Page</string>
   <string name="js_dialog_before_unload">"Czy opuścić tę stronę?
 
 %s
@@ -986,10 +1025,13 @@ Dotknij OK, aby kontynuować, lub Anuluj, aby pozostać na tej stronie."</string
   <string name="editTextMenuTitle">Działania na tekście</string>
   <string name="low_internal_storage_view_title">Kończy się miejsce</string>
   <string name="low_internal_storage_view_text">Niektóre funkcje systemu mogą nie działać</string>
-  <string name="loading">Wczytywanie…</string>
+  <string name="app_running_notification_title">%1$s is running</string>
+  <string name="app_running_notification_text">Touch for more information or to stop the app.</string>
+  <string name="loading">Wczytywanie...</string>
   <string name="capital_on">Wł.</string>
   <string name="capital_off">Wył.</string>
   <string name="whichApplication">Zakończ czynność przez...</string>
+  <string name="whichHomeApplication">Select a home app</string>
   <string name="alwaysUse">Domyślne dla tej czynności</string>
   <string name="clearDefaultHintMsg">Wyczyść wartości domyślne w: Ustawienia systemu &gt; Aplikacje &gt; Pobrane.</string>
   <string name="chooseActivity">Wybierz czynność</string>
@@ -1081,7 +1123,7 @@ Zamknąć ją?"</string>
   <string name="sms_control_yes">Pozwól</string>
   <string name="sms_control_no">Odmów</string>
   <string name="sms_short_code_confirm_message">&lt;b&gt;%1$s&lt;/b&gt; would like to send a message to &lt;b&gt;%2$s&lt;/b&gt;.</string>
-  <string name="sms_short_code_details">This <font fgcolor="#ffffb060">may cause charges</font> on your mobile account.</string>
+  <string name="sms_short_code_details"> on your mobile account.<font fgcolor="#ffffb060">may cause charges</font> on your mobile account.</string>
   <string name="sms_premium_short_code_details">
     <font fgcolor="#ffffb060">This will cause charges on your mobile account.</font>
   </string>
@@ -1165,6 +1207,10 @@ Zamknąć ją?"</string>
   <string name="permdesc_copyProtectedData">Pozwala aplikacji na wywoływanie domyślnej usługi kontenera w celu skopiowania zawartości. Nieprzeznaczone dla zwykłych aplikacji.</string>
   <string name="permlab_route_media_output">Kierowanie wyjścia multimediów</string>
   <string name="permdesc_route_media_output">Pozwala aplikacji na kierowanie wyjściowych danych multimedialnych do innych urządzeń zewnętrznych.</string>
+  <string name="permlab_access_keyguard_secure_storage">Access keyguard secure storage</string>
+  <string name="permdesc_access_keyguard_secure_storage">Allows an application to access keguard secure storage.</string>
+  <string name="permlab_control_keyguard">Control displaying and hiding keyguard</string>
+  <string name="permdesc_control_keyguard">Allows an application to control keguard.</string>
   <string name="tutorial_double_tap_to_zoom_message_short">Dotknij dwukrotnie, aby sterować powiększeniem.</string>
   <string name="gadget_host_error_inflating">Nie można dodać widżetu.</string>
   <string name="ime_action_go">OK</string>
@@ -1174,7 +1220,7 @@ Zamknąć ją?"</string>
   <string name="ime_action_done">Gotowe</string>
   <string name="ime_action_previous">Wstecz</string>
   <string name="ime_action_default">Wykonaj</string>
-  <string name="dial_number_using">"Połącz
+  <string name="dial_number_using">"Połącz 
 z numerem %s"</string>
   <string name="create_contact_using">"Utwórz kontakt
 dla numeru %s"</string>
@@ -1191,6 +1237,7 @@ dotyczące konta %s"</string>
   <string name="accessibility_binding_label">Ułatwienia dostępu</string>
   <string name="wallpaper_binding_label">Tapeta</string>
   <string name="chooser_wallpaper">Zmień tapetę</string>
+  <string name="notification_listener_binding_label">Notification listener</string>
   <string name="alternate_eri_file">/data/eri.xml</string>
   <string name="vpn_title">VPN aktywny</string>
   <string name="vpn_title_long">Obsługa sieci VPN została włączona przez aplikację %s</string>
@@ -1199,7 +1246,7 @@ dotyczące konta %s"</string>
   <string name="vpn_lockdown_connecting">Always-on VPN connecting…</string>
   <string name="vpn_lockdown_connected">Always-on VPN connected</string>
   <string name="vpn_lockdown_error">Always-on VPN error</string>
-  <string name="vpn_lockdown_reset">Touch to reset connection</string>
+  <string name="vpn_lockdown_config">Touch to configure</string>
   <string name="upload_file">Wybierz plik</string>
   <string name="no_file_chosen">Nie wybrano pliku</string>
   <string name="reset">Resetuj</string>
@@ -1268,6 +1315,7 @@ dotyczące konta %s"</string>
   <string name="keyboardview_keycode_shift">Shift</string>
   <string name="keyboardview_keycode_enter">Enter</string>
   <string name="activitychooserview_choose_application">Wybierz aplikację</string>
+  <string name="activitychooserview_choose_application_error">"Couldn't launch %s"</string>
   <string name="shareactionprovider_share_with">Udostępnij przez</string>
   <string name="shareactionprovider_share_with_application">Udostępnij przez %s</string>
   <string name="content_description_sliding_handle">Uchwyt przesuwny. Dotknij i przytrzymaj.</string>
@@ -1286,6 +1334,8 @@ dotyczące konta %s"</string>
   <string name="action_bar_home_description">Przejdź do strony głównej</string>
   <string name="action_bar_up_description">Przejdź wyżej</string>
   <string name="action_menu_overflow_description">Więcej opcji</string>
+  <string name="action_bar_home_description_format">%1$s, %2$s</string>
+  <string name="action_bar_home_subtitle_description_format">%1$s, %2$s, %3$s</string>
   <string name="storage_internal">Pamięć wewnętrzna</string>
   <string name="storage_sd_card">Karta SD</string>
   <string name="storage_usb">Nośnik USB</string>
@@ -1321,7 +1371,6 @@ dotyczące konta %s"</string>
   <string name="activity_chooser_view_see_all">Zobacz wszystkie</string>
   <string name="activity_chooser_view_dialog_title_default">Wybierz działanie</string>
   <string name="share_action_provider_share_with">Udostępnij przez</string>
-  <string name="status_bar_device_locked">Urządzenie zablokowane.</string>
   <string name="list_delimeter">", "</string>
   <string name="sending">Wysyłanie...</string>
   <string name="launchBrowserDefault">Uruchomić przeglądarkę?</string>
@@ -1334,18 +1383,27 @@ dotyczące konta %s"</string>
   <string name="default_media_route_name_hdmi">HDMI</string>
   <string name="default_audio_route_category_name">System</string>
   <string name="bluetooth_a2dp_audio_route_name">Dźwięk Bluetooth</string>
-  <string name="media_route_chooser_grouping_done">Gotowe</string>
+  <string name="wireless_display_route_description">Wireless display</string>
   <string name="media_route_button_content_description">Media output</string>
+  <string name="media_route_chooser_title">Connect to device</string>
+  <string name="media_route_chooser_title_for_remote_display">Cast screen to device</string>
+  <string name="media_route_chooser_searching">Searching for devices…</string>
+  <string name="media_route_chooser_extended_settings">Settings</string>
+  <string name="media_route_controller_disconnect">Disconnect</string>
   <string name="media_route_status_scanning">Skanowanie...</string>
   <string name="media_route_status_connecting">Łączenie...</string>
   <string name="media_route_status_available">Dostępne</string>
   <string name="media_route_status_not_available">Nie dostępne</string>
+  <string name="media_route_status_in_use">In use</string>
   <string name="display_manager_built_in_display_name">Built-in Screen</string>
   <string name="display_manager_hdmi_display_name">HDMI Screen</string>
   <string name="display_manager_overlay_display_name">Overlay #%1$d</string>
   <string name="display_manager_overlay_display_title">%1$s: %2$dx%3$d, %4$d dpi</string>
-  <string name="wifi_display_notification_title">Wireless display is connected</string>
-  <string name="wifi_display_notification_message">This screen is showing on another device</string>
+  <string name="display_manager_overlay_display_secure_suffix">, secure</string>
+  <string name="wifi_display_notification_connecting_title">Casting screen</string>
+  <string name="wifi_display_notification_connecting_message">Connecting to %1$s</string>
+  <string name="wifi_display_notification_connected_title">Casting screen</string>
+  <string name="wifi_display_notification_connected_message">Connected to %1$s</string>
   <string name="wifi_display_notification_disconnect">Disconnect</string>
   <string name="kg_emergency_call_label">Emergency call</string>
   <string name="kg_forgot_pattern_button_text">Forgot Pattern</string>
@@ -1372,8 +1430,7 @@ dotyczące konta %s"</string>
   <string name="kg_login_password_hint">Password</string>
   <string name="kg_login_submit_button">Sign in</string>
   <string name="kg_login_invalid_input">Invalid username or password.</string>
-  <string name="kg_login_account_recovery_hint">"Forgot your username or password?
-Visit "<b>google.com/accounts/recovery</b>.</string>
+  <string name="kg_login_account_recovery_hint">.<b>google.com/accounts/recovery</b>.</string>
   <string name="kg_login_checking_password">Checking account…</string>
   <string name="kg_too_many_failed_pin_attempts_dialog_message" formatted="false">"You have incorrectly typed your PIN %d times. 
 
@@ -1397,11 +1454,114 @@ Try again in %d seconds."</string>
   <string name="enable_accessibility_canceled">Accessibility canceled.</string>
   <string name="user_switched">Bieżący użytkownik %1$s.</string>
   <string name="owner_name">Właściciel</string>
+  <string name="error_message_title">Error</string>
+  <string name="app_no_restricted_accounts">"This app doesn't support accounts for restricted profiles"</string>
+  <string name="app_not_found">No application found to handle this action</string>
+  <string name="revoke">Revoke</string>
+  <string name="mediasize_iso_a0">ISO A0</string>
+  <string name="mediasize_iso_a1">ISO A1</string>
+  <string name="mediasize_iso_a2">ISO A2</string>
+  <string name="mediasize_iso_a3">ISO A3</string>
+  <string name="mediasize_iso_a4">ISO A4</string>
+  <string name="mediasize_iso_a5">ISO A5</string>
+  <string name="mediasize_iso_a6">ISO A6</string>
+  <string name="mediasize_iso_a7">ISO A7</string>
+  <string name="mediasize_iso_a8">ISO A8</string>
+  <string name="mediasize_iso_a9">ISO A9</string>
+  <string name="mediasize_iso_a10">ISO A10</string>
+  <string name="mediasize_iso_b0">ISO B0</string>
+  <string name="mediasize_iso_b1">ISO B1</string>
+  <string name="mediasize_iso_b2">ISO B2</string>
+  <string name="mediasize_iso_b3">ISO B3</string>
+  <string name="mediasize_iso_b4">ISO B4</string>
+  <string name="mediasize_iso_b5">ISO B5</string>
+  <string name="mediasize_iso_b6">ISO B6</string>
+  <string name="mediasize_iso_b7">ISO B7</string>
+  <string name="mediasize_iso_b8">ISO B8</string>
+  <string name="mediasize_iso_b9">ISO B9</string>
+  <string name="mediasize_iso_b10">ISO B10</string>
+  <string name="mediasize_iso_c0">ISO C0</string>
+  <string name="mediasize_iso_c1">ISO C1</string>
+  <string name="mediasize_iso_c2">ISO C2</string>
+  <string name="mediasize_iso_c3">ISO C3</string>
+  <string name="mediasize_iso_c4">ISO C4</string>
+  <string name="mediasize_iso_c5">ISO C5</string>
+  <string name="mediasize_iso_c6">ISO C6</string>
+  <string name="mediasize_iso_c7">ISO C7</string>
+  <string name="mediasize_iso_c8">ISO C8</string>
+  <string name="mediasize_iso_c9">ISO C9</string>
+  <string name="mediasize_iso_c10">ISO C10</string>
+  <string name="mediasize_na_letter">Letter</string>
+  <string name="mediasize_na_gvrnmt_letter">Government Letter</string>
+  <string name="mediasize_na_legal">Legal</string>
+  <string name="mediasize_na_junior_legal">Junior Legal</string>
+  <string name="mediasize_na_ledger">Ledger</string>
+  <string name="mediasize_na_tabloid">Tabloid</string>
+  <string name="mediasize_na_index_3x5">Index Card 3x5</string>
+  <string name="mediasize_na_index_4x6">Index Card 4x6</string>
+  <string name="mediasize_na_index_5x8">Index Card 5x8</string>
+  <string name="mediasize_na_monarch">Monarch</string>
+  <string name="mediasize_na_quarto">Quarto</string>
+  <string name="mediasize_na_foolscap">Foolscap</string>
+  <string name="mediasize_chinese_roc_8k">ROC 8K</string>
+  <string name="mediasize_chinese_roc_16k">ROC 16K</string>
+  <string name="mediasize_chinese_prc_1">PRC 1</string>
+  <string name="mediasize_chinese_prc_2">PRC 2</string>
+  <string name="mediasize_chinese_prc_3">PRC 3</string>
+  <string name="mediasize_chinese_prc_4">PRC 4</string>
+  <string name="mediasize_chinese_prc_5">PRC 5</string>
+  <string name="mediasize_chinese_prc_6">PRC 6</string>
+  <string name="mediasize_chinese_prc_7">PRC 7</string>
+  <string name="mediasize_chinese_prc_8">PRC 8</string>
+  <string name="mediasize_chinese_prc_9">PRC 9</string>
+  <string name="mediasize_chinese_prc_10">PRC 10</string>
+  <string name="mediasize_chinese_prc_16k">PRC 16K</string>
+  <string name="mediasize_chinese_om_pa_kai">Pa Kai</string>
+  <string name="mediasize_chinese_om_dai_pa_kai">Dai Pa Kai</string>
+  <string name="mediasize_chinese_om_jurro_ku_kai">Jurro Ku Kai</string>
+  <string name="mediasize_japanese_jis_b10">JIS B10</string>
+  <string name="mediasize_japanese_jis_b9">JIS B9</string>
+  <string name="mediasize_japanese_jis_b8">JIS B8</string>
+  <string name="mediasize_japanese_jis_b7">JIS B7</string>
+  <string name="mediasize_japanese_jis_b6">JIS B6</string>
+  <string name="mediasize_japanese_jis_b5">JIS B5</string>
+  <string name="mediasize_japanese_jis_b4">JIS B4</string>
+  <string name="mediasize_japanese_jis_b3">JIS B3</string>
+  <string name="mediasize_japanese_jis_b2">JIS B2</string>
+  <string name="mediasize_japanese_jis_b1">JIS B1</string>
+  <string name="mediasize_japanese_jis_b0">JIS B0</string>
+  <string name="mediasize_japanese_jis_exec">JIS Exec</string>
+  <string name="mediasize_japanese_chou4">Chou4</string>
+  <string name="mediasize_japanese_chou3">Chou3</string>
+  <string name="mediasize_japanese_chou2">Chou2</string>
+  <string name="mediasize_japanese_hagaki">Hagaki</string>
+  <string name="mediasize_japanese_oufuku">Oufuku</string>
+  <string name="mediasize_japanese_kahu">Kahu</string>
+  <string name="mediasize_japanese_kaku2">Kaku2</string>
+  <string name="mediasize_japanese_you4">You4</string>
+  <string name="mediasize_unknown_portrait">Unknown portrait</string>
+  <string name="mediasize_unknown_landscape">Unknown landscape</string>
+  <string name="write_fail_reason_cancelled">Cancelled</string>
+  <string name="write_fail_reason_cannot_write">Error writing content</string>
+  <string name="reason_unknown">unknown</string>
+  <string name="reason_service_unavailable">Print service not enabled</string>
+  <string name="print_service_installed_title">%s service installed</string>
+  <string name="print_service_installed_message">Tap to enable</string>
+  <string name="restr_pin_enter_admin_pin">Enter administrator PIN</string>
+  <string name="restr_pin_enter_pin">Enter PIN</string>
+  <string name="restr_pin_incorrect">Incorrect</string>
+  <string name="restr_pin_enter_old_pin">Current PIN</string>
+  <string name="restr_pin_enter_new_pin">New PIN</string>
+  <string name="restr_pin_confirm_pin">Confirm new PIN</string>
+  <string name="restr_pin_create_pin">Create a PIN for modifying restrictions</string>
+  <string name="restr_pin_error_doesnt_match">"PINs don't match. Try again."</string>
+  <string name="restr_pin_error_too_short">PIN is too short. Must be at least 4 digits.</string>
+  <string name="restr_pin_try_later">Try again later</string>
+  <string name="immersive_mode_confirmation">Swipe down from the top to exit full screen.</string>
   <string name="storage_phone">Pamięć wewnętrzna</string>
   <string name="storage_external_usb">Karta SD</string>
   <string name="storage_ic_usb1">External IC-USB storage1</string>
   <string name="storage_ic_usb2">External IC-USB storage2</string>
-  <string name="zz_keyguard_accessibility_voice_unlock">Voice unlock.</string>
   <string name="zzzzz_lightadjust_app_name">LightAdjust</string>
   <string name="zzzzz_lightadjust_notification_view_screen_back_light">Screen Backlight:</string>
   <string name="zzzzz_lightadjust_action_settings">Settings</string>
@@ -1439,5 +1599,85 @@ Try again in %d seconds."</string>
   <string name="zzzzz_lightadjust_preference_general_others_label">Others</string>
   <string name="zzzzz_lightadjust_preference_general_reset_all_settings_label">Reset all settings</string>
   <string name="zzzzz_lightadjust_preference_general_reset_all_settings_label_summary">Reset all settings</string>
-  <string name="not_cu_data_connection">This transaction is provided by China Unicom, using China Unicom USIM card is recommended. Continue?</string>
+  <string name="safecenter_warning">Security Problem</string>
+  <string name="webviewchromium_actionbar_share">Share</string>
+  <string name="webviewchromium_actionbar_web_search">Web search</string>
+  <string name="webviewchromium_accessibility_content_view">Web View</string>
+  <string name="webviewchromium_date_picker_dialog_set">Set</string>
+  <string name="webviewchromium_date_picker_dialog_clear">Clear</string>
+  <string name="webviewchromium_date_picker_dialog_title">Set date</string>
+  <string name="webviewchromium_date_time_picker_dialog_title">Set date and time</string>
+  <string name="webviewchromium_month_picker_dialog_title">Set month</string>
+  <string name="webviewchromium_week_picker_dialog_title">Set week</string>
+  <string name="webviewchromium_accessibility_datetime_picker_date">Date</string>
+  <string name="webviewchromium_accessibility_datetime_picker_time">Time</string>
+  <string name="webviewchromium_accessibility_date_picker_month">Month</string>
+  <string name="webviewchromium_accessibility_date_picker_week">Week</string>
+  <string name="webviewchromium_accessibility_date_picker_year">Year</string>
+  <string name="webviewchromium_media_player_error_title">Cannot play video</string>
+  <string name="webviewchromium_media_player_error_text_invalid_progressive_playback">Sorry, this video is not valid for streaming to this device.</string>
+  <string name="webviewchromium_media_player_error_text_unknown">Sorry, this video cannot be played.</string>
+  <string name="webviewchromium_media_player_error_button">OK</string>
+  <string name="webviewchromium_media_player_loading_video">Loading video</string>
+  <string name="webviewchromium_color_picker_button_more">More</string>
+  <string name="webviewchromium_color_picker_hue">Hue</string>
+  <string name="webviewchromium_color_picker_saturation">Saturation</string>
+  <string name="webviewchromium_color_picker_value">Value</string>
+  <string name="webviewchromium_color_picker_button_set">Set</string>
+  <string name="webviewchromium_color_picker_button_cancel">Cancel</string>
+  <string name="webviewchromium_color_picker_dialog_title">Select color</string>
+  <string name="webviewchromium_low_memory_error">Unable to complete previous operation due to low memory</string>
+  <string name="webviewchromium_opening_file_error">Failed to open selected file</string>
+  <string name="webviewchromium_private_browsing_warning">This functionality is not supported in this version of Android.</string>
+  <string name="media_info_audio_not_supported">Failed to play audio.</string>
+  <string name="media_info_video_not_supported">This video is not supported.</string>
+  <item name="APKTOOL_DUMMY_0618" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0619" type="string">false</item>
+  <item name="APKTOOL_DUMMY_061a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_061b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_061c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_061d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_061e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_061f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0620" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0621" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0622" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0623" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0624" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0625" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0626" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0627" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0628" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0629" type="string">false</item>
+  <item name="APKTOOL_DUMMY_062a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_062b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_062c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_062d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_062e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_062f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0630" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0631" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0632" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0633" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0634" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0635" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0636" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0637" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0638" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0639" type="string">false</item>
+  <item name="APKTOOL_DUMMY_063a" type="string">false</item>
+  <item name="APKTOOL_DUMMY_063b" type="string">false</item>
+  <item name="APKTOOL_DUMMY_063c" type="string">false</item>
+  <item name="APKTOOL_DUMMY_063d" type="string">false</item>
+  <item name="APKTOOL_DUMMY_063e" type="string">false</item>
+  <item name="APKTOOL_DUMMY_063f" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0640" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0641" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0642" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0643" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0644" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0645" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0646" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0647" type="string">false</item>
+  <item name="APKTOOL_DUMMY_0648" type="string">false</item>
 </resources>
