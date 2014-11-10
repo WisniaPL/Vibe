@@ -1364,13 +1364,13 @@ To “Settings” or “Albums” interface display rules"</string>
   <string name="folder_screenshot">Zrzuty ekranu</string>
   <string name="help">Pomoc</string>
   <string name="help_url_gallery_main"/>
-  <string name="sLocal">lokalny</string>
-  <string name="sWeibo">Weibo</string>
+  <string name="sLocal">Zdjęcia</string>
+  <string name="sWeibo">Chmura</string>
   <string name="sGalleryWall">Fototapeta</string>
   <string name="sCamera">Aparat</string>
   <string name="sLeftMenu">Lewe menu</string>
   <string name="sRightMenu">Wyświetlaj wg kategorii</string>
-  <string name="sFolder">Folder</string>
+  <string name="sFolder">Albumy</string>
   <string name="sPeople">Portret</string>
   <string name="sLandscape">Krajobraz</string>
   <string name="sAll">Wszystkie</string>
