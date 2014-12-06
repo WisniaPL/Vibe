@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<resources>
+  <string-array name="frequency_question">
+    <item>Czy SYNCit jest płatna?</item>
+    <item>Czy SYNCit i Android Backup to te same aplikacje?</item>
+    <item>Czy aplikacja SYNCit jest bezpieczna? Czy ktoś może przejąć mój numer telefonu lub moje zarchiwizowane dane?</item>
+    <item>Jak się wylogować?</item>
+    <item>Dlaczego po archiwizacji maleje liczba kontaktów?</item>
+    <item>Mój telefon nie jest firmy Lenovo, czy mogę korzystać z aplikacji SYNCit?</item>
+    <item>Czy SYNCit obsługuje inne platformy?</item>
+    <item>How to restore my contacts if I have deleted them by mistake?</item>
+    <item>My phone is not made by Lenovo. Can I use SYNCit?</item>
+    <item>Does SYNCit support other platform?</item>
+  </string-array>
+  <string-array name="frequency_answer">
+    <item>SYNCit to bezpłatna aplikacja na urządzenia przenośne. Jednak korzystanie z niej generuje transmisję danych, za którą operatorzy mogą naliczać opłaty.</item>
+    <item>Tak, to prawda.</item>
+    <item>Aplikacja SYNCit przechowuje dane użytkowników zaszyfrowane z poziomem bezpieczeństwa odpowiadającym bankowym transakcjom online. Może ona z pewnością ustrzec prywatne dane użytkowników przed wyciekiem.</item>
+    <item>Kliknij opcję [Ustawienia] w prawym górnym rogu, wybierz opcję [Ustawienia konta], następnie ponownie kliknij opcję [Ustawienia] w prawym górnym rogu i kliknij opcję [Wyloguj]</item>
+    <item>SYNCit automatycznie scali zduplikowane kontakty w telefonie.</item>
+    <item>Oczywiście, że tak, o ile w telefonie działa jeden z następujących systemów operacyjnych: Android, iOS, Symbian albo telefon obsługuje aplikacje Java (podane są informacje o wymaganej wersji).</item>
+    <item>Tak, aplikacja obsługuje platformy Symbian, iOS, Android oraz Java.</item>
+    <item>In event that you accidentally delete a contact on your phone, the deleted information may be retrieved using the [Recover] function as long as the contact has been synced previously. After retrieving the contact, please sync again to prevent loss of data.</item>
+    <item>Yes. There are different versions of the software that are compatible with mobile phones running on Android 2.2 and above, iOS5, Symbian or other Java-supporting OS.</item>
+    <item>Yes, it is compatible with Android and Symbian mobile phones, iPhones and other Java-supporting phones.</item>
+  </string-array>
+</resources>
