@@ -680,8 +680,8 @@ Allow this for all apps that want to scan?"</string>
   <string name="wifi_tether_configure_ap_text">Skonfiguruj hotspot Wi-Fi</string>
   <string name="wifi_tether_configure_subtext">Przenośny punkt Wi-Fi %1$s %2$s</string>
   <string name="wifi_tether_configure_ssid_default">Punkt dostępu Android</string>
-  <string name="wifi_ap_more">Checkout All Access Points</string>
-  <string name="wifi_ap_less">Checkout Good Reception</string>
+  <string name="wifi_ap_more">Pokaż wszystkie sieci</string>
+  <string name="wifi_ap_less">Pokaż dobre sieci</string>
   <string name="testing_wifi_info">Informacje o sieci bezprzewodowej</string>
   <string name="disableNetwork">odłącz Sieć</string>
   <string name="enableNetwork">włącz Sieć</string>
